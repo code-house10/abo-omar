@@ -1,0 +1,558 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 17 - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cairo:400,900&display=swap" rel="stylesheet">
+<link href="css/Untitled1.css?v=9" rel="stylesheet">
+<link href="css/index.css?v=9" rel="stylesheet">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.carousel.effects.min.js"></script>
+<script src="wwb17.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $('#wb_Text2').addClass('visibility-hidden');
+   $('#wb_Text3').addClass('visibility-hidden');
+   $('#wb_Text5').addClass('visibility-hidden');
+   $('#wb_Text4').addClass('visibility-hidden');
+   $("a[href*='#LayoutGrid1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid1').offset().top }, 600, 'linear');
+   });
+   $("#PanelMenu2").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'push', position: 'left', toggle: true, overlay: true});
+   var Carousel1Opts =
+   {
+      delay: 2300,
+      duration: 500,
+      easing: 'linear',
+      mode: 'drop',
+      direction: 'up',
+      scalemode: 3,
+      pagination: true,
+      pause: null,
+      start: 0
+   };
+   $("#Carousel1").carouseleffects(Carousel1Opts);
+   $("#PanelMenu1").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'push', position: 'left', toggle: true, overlay: true});
+   $("#PanelMenu3").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'push', position: 'left', toggle: true, overlay: true});
+   function onScrollText2()
+   {
+      var $obj = $("#wb_Text2");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text2', 'animate-fade-in-down', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Text2', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Text2').inViewPort(true))
+   {
+      $('#wb_Text2').addClass("in-viewport");
+   }
+   onScrollText2();
+   $(window).scroll(function(event)
+   {
+      onScrollText2();
+   });
+   $("a[href*='#LayoutGrid6']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid6').offset().top }, 600, 'linear');
+   });
+   function onScrollText3()
+   {
+      var $obj = $("#wb_Text3");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text3', 'transform-scale-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Text3', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Text3').inViewPort(true))
+   {
+      $('#wb_Text3').addClass("in-viewport");
+   }
+   onScrollText3();
+   $(window).scroll(function(event)
+   {
+      onScrollText3();
+   });
+   function onScrollText5()
+   {
+      var $obj = $("#wb_Text5");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text5', 'transform-shake', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Text5', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Text5').inViewPort(true))
+   {
+      $('#wb_Text5').addClass("in-viewport");
+   }
+   onScrollText5();
+   $(window).scroll(function(event)
+   {
+      onScrollText5();
+   });
+   function onScrollText4()
+   {
+      var $obj = $("#wb_Text4");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text4', 'transform-bounce-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Text4', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Text4').inViewPort(true))
+   {
+      $('#wb_Text4').addClass("in-viewport");
+   }
+   onScrollText4();
+   $(window).scroll(function(event)
+   {
+      onScrollText4();
+   });
+   $("a[href*='#CardContainer1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#CardContainer1').offset().top }, 600, 'linear');
+   });
+   function onScrollsocial()
+   {
+      var $obj = $("#wb_social");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimationResume('wb_socialIcon3');
+      }
+   }
+   onScrollsocial();
+   $(window).scroll(function(event)
+   {
+      onScrollsocial();
+   });
+   $("a[href*='#links']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_links').offset().top-68 }, 600, 'easeOutCirc');
+   });
+   $("a[href*='#footer']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_footer').offset().top }, 600, 'linear');
+   });
+});
+</script>
+<!-- Insert Google Analytics code here -->
+</head>
+<body>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1-divider-bottom">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="divider-fill" d="M0 140h1280C573.08 140 0 0 0 0z"/>
+</svg></div>
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<div id="wb_Image1">
+<img src="images/logo.png" id="Image1" alt="" width="72" height="72">
+</div>
+<div id="wb_Text1">
+<span id="wb_uid0"><strong>شركة القاهرة لنقل الأثاث</strong></span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_PanelMenu2">
+<a href="#PanelMenu2_markup" id="PanelMenu2">&nbsp;</a>
+<div id="PanelMenu2_markup">
+<ul role="menu">
+   <li role="menuitem"><a href="#LayoutGrid1" class="nav-link">&#1575;&#1604;&#1585;&#1574;&#1610;&#1587;&#1610;&#1577;</a></li>
+   <li role="menuitem"><a href="#LayoutGrid6" class="nav-link">&#1593;&#1606; &#1575;&#1604;&#1588;&#1585;&#1603;&#1577;</a></li>
+   <li role="menuitem"><a href="#CardContainer1" class="nav-link">&#1582;&#1583;&#1605;&#1575;&#1578;&#1606;&#1575;</a></li>
+   <li role="menuitem"><a href="#footer" class="nav-link">&#1604;&#1604;&#1578;&#1608;&#1575;&#1589;&#1604;</a></li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_Carousel1">
+<div id="Carousel1">
+<div class="frame">
+<div class="carousel-innerframe">
+<div id="wb_ThemeableButton1">
+<a class="ui-button ui-widget ui-corner-all" id="ThemeableButton1" href="tel:01024888950"><span class="ui-button-icon-space"> </span><span class="ui-button-icon ui-icon ui-secondary"></span>أتصل الان</a></div>
+<div id="wb_ThemeableButton2">
+<a class="ui-button ui-widget ui-corner-all" id="ThemeableButton2" href="tel:01024888950"><span class="ui-button-icon-space"> </span><span class="ui-button-icon ui-icon ui-secondary"></span>أحجز اليوم</a></div>
+<div id="wb_Image2">
+<img src="images/truck.png" id="Image2" alt="" width="286" height="227"></div>
+</div>
+</div>
+<div class="frame" style="display:none">
+<div class="carousel-innerframe">
+<div id="wb_ThemeableButton4">
+<a class="ui-button ui-widget ui-corner-all" id="ThemeableButton4" href="tel:01024888950"><span class="ui-button-icon-space"> </span><span class="ui-button-icon ui-icon ui-secondary"></span>أحجز اليوم</a></div>
+<div id="wb_ThemeableButton5">
+<a class="ui-button ui-widget ui-corner-all" id="ThemeableButton5" href="tel:01024888950"><span class="ui-button-icon-space"> </span><span class="ui-button-icon ui-icon ui-secondary"></span>أتصل الان</a></div>
+<div id="wb_Image4">
+<img src="images/Movers.png" id="Image4" alt="" width="180" height="233"></div>
+</div>
+</div>
+<div class="frame" style="display:none">
+<div class="carousel-innerframe">
+<div id="wb_ThemeableButton6">
+<a class="ui-button ui-widget ui-corner-all" id="ThemeableButton6" href="tel:01024888950"><span class="ui-button-icon-space"> </span><span class="ui-button-icon ui-icon ui-secondary"></span>أحجز اليوم</a></div>
+<div id="wb_ThemeableButton7">
+<a class="ui-button ui-widget ui-corner-all" id="ThemeableButton7" href="tel:01024888950"><span class="ui-button-icon-space"> </span><span class="ui-button-icon ui-icon ui-secondary"></span>أتصل الان</a></div>
+<div id="wb_Image3">
+<img src="images/truck.png" id="Image3" alt="" width="286" height="227"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2-divider-bottom">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="divider-fill" d="M0 140h1280C573.08 140 0 0 0 0z"/>
+</svg></div>
+<div id="LayoutGrid2">
+<div class="row">
+<div class="col-1">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid3">
+<div id="LayoutGrid3">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text2">
+<span id="wb_uid1">عن الشركة<br></span><span id="wb_uid2"><br></span><span id="wb_uid3">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.<br></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid6">
+<div id="LayoutGrid6">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text5">
+<span id="wb_uid4"><br><strong>&#1582;&#1591;&#1608;&#1575;&#1578; &#1606;&#1602;&#1604; &#1575;&#1604;&#1593;&#1601;&#1588;<br><br></strong></span><span id="wb_uid5">&#1607;&#1584;&#1575; &#1575;&#1604;&#1606;&#1589; &#1607;&#1608; &#1605;&#1579;&#1575;&#1604; &#1604;&#1606;&#1589; &#1610;&#1605;&#1603;&#1606; &#1571;&#1606; &#1610;&#1587;&#1578;&#1576;&#1583;&#1604; &#1601;&#1610; &#1606;&#1601;&#1587; &#1575;&#1604;&#1605;&#1587;&#1575;&#1581;&#1577;&#1548; &#1604;&#1602;&#1583; &#1578;&#1605; &#1578;&#1608;&#1604;&#1610;&#1583; &#1607;&#1584;&#1575; &#1575;&#1604;&#1606;&#1589; &#1605;&#1606; &#1605;&#1608;&#1604;&#1583; &#1575;&#1604;&#1606;&#1589; &#1575;&#1604;&#1593;&#1585;&#1576;&#1609;&#1548; &#1581;&#1610;&#1579; &#1610;&#1605;&#1603;&#1606;&#1603; &#1571;&#1606; &#1578;&#1608;&#1604;&#1583; &#1605;&#1579;&#1604; &#1607;&#1584;&#1575; &#1575;&#1604;&#1606;&#1589; &#1571;&#1608; &#1575;&#1604;&#1593;&#1583;&#1610;&#1583; &#1605;&#1606; &#1575;&#1604;&#1606;&#1589;&#1608;&#1589; &#1575;&#1604;&#1571;&#1582;&#1585;&#1609; &#1573;&#1590;&#1575;&#1601;&#1577; &#1573;&#1604;&#1609; &#1586;&#1610;&#1575;&#1583;&#1577; &#1593;&#1583;&#1583; &#1575;&#1604;&#1581;&#1585;&#1608;&#1601; &#1575;&#1604;&#1578;&#1609; &#1610;&#1608;&#1604;&#1583;&#1607;&#1575; &#1575;&#1604;&#1578;&#1591;&#1576;&#1610;&#1602;. &#1573;&#1584;&#1575; &#1603;&#1606;&#1578; &#1578;&#1581;&#1578;&#1575;&#1580; &#1573;&#1604;&#1609; &#1593;&#1583;&#1583; &#1571;&#1603;&#1576;&#1585; &#1605;&#1606; &#1575;&#1604;&#1601;&#1602;&#1585;&#1575;&#1578; &#1610;&#1578;&#1610;&#1581; &#1604;&#1603; &#1605;</span><span id="wb_uid6"><br></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid5">
+<div id="LayoutGrid5">
+<div class="row">
+<div class="col-1">
+<div class="col-1-overlay"></div>
+<div class="col-1-padding">
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-overlay"></div>
+<div id="wb_Text3">
+<span id="wb_uid7"><br><br></span><span id="wb_uid8"><strong>&#1582;&#1591;&#1608;&#1575;&#1578; &#1606;&#1602;&#1604; &#1575;&#1604;&#1593;&#1601;&#1588;<br></strong></span><span id="wb_uid9">&#1607;&#1584;&#1575; &#1575;&#1604;&#1606;&#1589; &#1607;&#1608; &#1605;&#1579;&#1575;&#1604; &#1604;&#1606;&#1589; &#1610;&#1605;&#1603;&#1606; &#1571;&#1606; &#1610;&#1587;&#1578;&#1576;&#1583;&#1604; &#1601;&#1610; &#1606;&#1601;&#1587; &#1575;&#1604;&#1605;&#1587;&#1575;&#1581;&#1577;&#1548; &#1604;&#1602;&#1583; &#1578;&#1605; &#1578;&#1608;&#1604;&#1610;&#1583; &#1607;&#1584;&#1575; &#1575;&#1604;&#1606;&#1589; &#1605;&#1606; &#1605;&#1608;&#1604;&#1583; &#1575;&#1604;&#1606;&#1589; &#1575;&#1604;&#1593;&#1585;&#1576;&#1609;&#1548; &#1581;&#1610;&#1579; &#1610;&#1605;&#1603;&#1606;&#1603; &#1571;&#1606; &#1578;&#1608;&#1604;&#1583; &#1605;&#1579;&#1604; &#1607;&#1584;&#1575; &#1575;&#1604;&#1606;&#1589; &#1571;&#1608; &#1575;&#1604;&#1593;&#1583;&#1610;&#1583; &#1605;&#1606; &#1575;&#1604;&#1606;&#1589;&#1608;&#1589; &#1575;&#1604;&#1571;&#1582;&#1585;&#1609; &#1573;&#1590;&#1575;&#1601;&#1577; &#1573;&#1604;&#1609; &#1586;&#1610;&#1575;&#1583;&#1577; &#1593;&#1583;&#1583; &#1575;&#1604;&#1581;&#1585;&#1608;&#1601; &#1575;&#1604;&#1578;&#1609; &#1610;&#1608;&#1604;&#1583;&#1607;&#1575; &#1575;&#1604;&#1578;&#1591;&#1576;&#1610;&#1602;. &#1573;&#1584;&#1575; &#1603;&#1606;&#1578; &#1578;&#1581;&#1578;&#1575;&#1580; &#1573;&#1604;&#1609; &#1593;&#1583;&#1583; &#1571;&#1603;&#1576;&#1585; &#1605;&#1606; &#1575;&#1604;&#1601;&#1602;&#1585;&#1575;&#1578; &#1610;&#1578;&#1610;&#1581; &#1604;&#1603; &#1605;&#1608;&#1604;&#1583; &#1575;&#1604;&#1606;&#1589; &#1575;&#1604;&#1593;&#1585;&#1576;&#1609; &#1586;&#1610;&#1575;&#1583;&#1577; &#1593;&#1583;&#1583; &#1575;&#1604;&#1601;&#1602;&#1585;&#1575;&#1578; &#1603;&#1605;&#1575; &#1578;&#1585;&#1610;&#1583;&#1548; &#1575;&#1604;&#1606;&#1589; &#1604;&#1606; &#1610;&#1576;&#1583;&#1608; &#1605;&#1602;&#1587;&#1605;&#1575; &#1608;&#1604;&#1575; &#1610;&#1581;&#1608;&#1610; &#1571;&#1582;&#1591;&#1575;&#1569; &#1604;&#1594;&#1608;&#1610;&#1577;&#1548; &#1605;&#1608;&#1604;&#1583; &#1575;&#1604;&#1606;&#1589; &#1575;&#1604;&#1593;&#1585;&#1576;&#1609; &#1605;&#1601;&#1610;&#1583; &#1604;&#1605;&#1589;&#1605;&#1605;&#1610; &#1575;&#1604;&#1605;&#1608;&#1575;&#1602;&#1593; &#1593;&#1604;&#1609; &#1608;&#1580;&#1607; &#1575;&#1604;&#1582;&#1589;&#1608;&#1589;&#1548; &#1581;&#1610;&#1579; &#1610;&#1581;&#1578;&#1575;&#1580; &#1575;&#1604;&#1593;&#1605;&#1610;&#1604; &#1601;&#1609; &#1603;&#1579;&#1610;&#1585; &#1605;&#1606; &#1575;&#1604;&#1571;&#1581;&#1610;&#1575;&#1606; &#1571;&#1606; &#1610;&#1591;&#1604;&#1593; &#1593;&#1604;&#1609; &#1589;&#1608;&#1585;&#1577; &#1581;&#1602;&#1610;&#1602;&#1610;&#1577; &#1604;&#1578;&#1589;&#1605;&#1610;&#1605; &#1575;&#1604;&#1605;&#1608;&#1602;&#1593;.<br></span><span id="wb_uid10"><br></span><span id="wb_uid11"><br></span>
+</div>
+<div id="wb_ThemeableButton3">
+<a class="ui-button ui-widget ui-corner-all" id="ThemeableButton3" href="tel:01024888950"><span class="ui-button-icon-space"> </span><span class="ui-button-icon ui-icon ui-secondary"></span>أحجز اليوم</a>
+</div>
+</div>
+</div>
+</div>
+<div id="LayoutGrid5-divider-top">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4080 400" preserveAspectRatio="none">
+<path class="divider-fill" d="M0,0l0,40.7C0,98,44.8,145.2,101.9,148.2c60.5,3.2,130.7,6.2,158.4,4.7c52.9-2.9,112.1-15.7,121.8,0.4s4.8,39.7,11.6,43.7
+	c8.9,5.3,11.2-7.8,11.2-21.4c0-13.6,5.8-18.4,11.6-17c5.8,1.5,18.9,8.7,18.4,42.7c-0.5,34-4.4,135.9-3.4,141.7s4.4,8.7,9.2,8.2
+	c4.9-0.5,8.2-3.9,7.3-14.1c-1-10.2-1.6-104.8,0.2-123.7c1.8-18.9,2.3-48.5,25.1-65s40.3-10.2,38.8,12.6s-2.3,30.2,0.1,35.4
+	c2.5,5.6,13,5.3,12-8.7c-1-14.1-4.4-42.2,6.8-49c11.2-6.8,33.4-4.6,49.5-5.3c29.7-1.3,91.5-2.2,214.9,27.1
+	c24,5.7,86.2,12.8,88.6,60.3c1.2,23.6-4.5,52.4,7.1,52.4c5.1,0,5.9-3.7,6-7.3c0.1-3.8,3.6-45,3.9-47.5c1.9-16.1,4.1-27,53-24
+	c72.9,7.2,124.4,1.8,124.4,1.8c66.5,0,155.4-40.5,155.4,4.1v42.6c0,5,3.8,9.4,8.8,9.8c5.5,0.4,10.1-4,10.1-9.4v-34.7
+	c0,0-1.5-18,15.5-18s37.3,12.7,37.3,54l-3.8,127.3c0,5.8,4.7,10.4,10.4,10.4s10.4-4.7,10.4-10.4l-2-159.9c0-8.1,7.7-17.7,15.6-19.3
+	c22-4.3,119.7-47.3,118.2,10.5c-0.2,9,4.1,10.5,9,10.4c6.6-0.2,5.9-8.1,5.9-8.1s-1.8-21.7,2.3-44.3c3.1-17,23.7-19.7,40.5-15.9
+	c6.7,1.5,13,4.4,18.6,8.4l53.4,37.5c33,17.4,76,19.2,93,9c17-10.2,54.8-13.1,59.2,11.2c3.6,20,2.9,39.4,2.6,45.6
+	c-0.1,1.9,0.1,3.9,0.8,5.7c0.9,2.4,2.5,5,5.4,5c5.3,0,10.2-1.5,9.7-11.2c-0.5-9.7-2-51.4,12.1-55.8c13.3-4.2,32,12.1,34.9,45.1
+	c2.9,33,0,119.2,0,119.2s-1.5,20.4,11.6,20.4s10.7-21.8,10.7-21.8l-3.7-114.9c0,0,0.4-48,39.2-48s43.7,52.9,42.7,77.6
+	s0.1,92.5,0.1,92.5s-2.1,11.8,8.6,12.6c10,0.8,11.2-7.3,10.2-23.8c-1-16.5-1.7-89,0.3-100.3c8.8-48.9,74-40.4,91.4-26.7
+	c10.1,7.9,17.1,13.3,17,21.8c0,3.9,0,17.5,0,17.5s1,5.3,7.3,5.3s7.3-2.4,7.3-10.7s3.9-37.9,20.4-37.9c16.5,0,19.4,20.9,18.9,34.5
+	c-0.4,12.2-5.9,97.9-7.1,116.8c-0.3,4.2,1.8,8.4,5.6,10.4c1.5,0.8,3.3,1.3,5.4,1.3c8.7,0,11.2-7.8,9.2-26.7
+	c-1.6-15.2-0.2-87.1,0.4-116.5c0.2-9.2,8-16.4,17.2-15.9c0.1,0,0.3,0,0.4,0c13.6,1,33.5,14.6,33,39.3c-0.4,19.3-4.5,79.6-4.4,107.2
+	c0,6.6,5.8,11.7,12.4,10.8l0,0c5.2-1.3,9.5-6.8,9.5-12.2V266.7c0,0,0-19.9,16-36.4c16-16.5,42.7-27.7,45.6-10.2
+	c1.4,8.2,1.9,15.4,2,20.8c0.1,5,4.1,9.2,9.1,9.3c5.5,0.1,9.8-4.5,9.5-9.8c-0.4-6.8-0.6-15.5,0.8-18.8c2.4-5.8,10.7-18.4,26.7-20.4
+	c16-1.9,16,14.6,16,32v135.4c0,5.9,5.1,10.5,10.9,9.9l0,0c5.1-0.5,9-4.8,9-9.9l-4.7-143.7c0,0-0.7-56.8,35.7-59.7
+	c36.4-2.9,61.6,8.7,108.7,11.2c0,0,72.7,11.7,168.8-5c38.6-6.7,64.1-13.6,93.2-2.4c29.1,11.2,49.5,23.8,76.7,20.9
+	c27.2-2.9,42.2-15,61.1-7.3c18.9,7.8,20.4,20.9,42.2,17.5c21.8-3.4,37.9-6.3,44.6,8.7c3.9,8.6,4.6,18.5,4.5,25.4
+	c-0.1,4.2,3.1,8,7.3,8.3c4.7,0.3,8.5-3.4,8.5-7.9v-14.6c0-7.1,5.7-12.8,12.8-12.8h0.9c6.6,0,11.9,5.3,11.9,11.9v0
+	c3.3,14.4,4.7,29.3,4.2,44.1l-3.9,119.6c-0.1,4.7,3.8,8.6,8.6,8.3c4.4-0.2,7.7-4.1,7.7-8.4V238.9c0,0-1-25.7,23.8-42.2
+	c24.7-16.5,38.8-8.2,38.8,6.3v33.8c0,2.5,1.9,4.8,4.4,5c2.9,0.3,5.3-2,5.3-4.8v-34c0,0-0.5-22.3,29.1-22.3c29.6,0,49.5,7.8,86.4,3.4
+	c0,0,87.7,4.8,178.6-37.1c30.7-14.2,59.7-20.3,73.7-20.8c14-0.5,84.1-0.5,99-1.8s35.7-1.4,46.1,5c10.4,6.3,7.2,32.5,6.3,45.7
+	c-0.9,13.1,9,14.6,11.2,8.1c1.7-5.1,1.4-11.8,0.1-33c-1.4-21.2,24.5-27.1,45.7-11.7c21.2,15.4,12.1,42.9,13.8,60.5
+	c1.7,17.6,1.1,143.6,0.2,153.1c-0.9,9.5,2.3,12.7,6.8,13.1c4.5,0.5,7.7-2.3,8.6-7.7c0.9-5.4-2.7-138.1-3.2-169.8
+	c-0.5-31.6,13-36.1,17.2-39.8c34.1-29.6,80.6-37.4,145.5-5.4C4008,226.2,4080,91.2,4080,37.9V0L0,0z"/>
+</svg>
+</div>
+<div id="LayoutGrid5-divider-bottom">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4080 400" preserveAspectRatio="none">
+<path class="divider-fill" d="M2091.6,272.9c-21.8-43-35.2-89.7-35.2-137.9v-1c0-58.8,47.6-106.4,106.4-106.4H4080V0H0v27.6h1917.7
+	c58.8,0,106.4,47.6,106.4,106.4v0c0,48.4-12.9,95.8-35.6,138.5c-5.5,10.3-8,22.5-5.8,35.3c4.6,27.6,29,48.6,57,48.4
+	c31.7-0.1,58-25.9,58-57.6C2097.7,289.4,2095.5,280.6,2091.6,272.9z"/>
+</svg>
+</div>
+</div>
+<div id="FlexContainer1">
+<div id="FlexContainer1-overlay"></div>
+<div id="wb_Text4">
+<span id="wb_uid12"><br><strong>&#1582;&#1591;&#1608;&#1575;&#1578; &#1606;&#1602;&#1604; &#1575;&#1604;&#1593;&#1601;&#1588;<br><br></strong></span><span id="wb_uid13">&#1607;&#1584;&#1575; &#1575;&#1604;&#1606;&#1589; &#1607;&#1608; &#1605;&#1579;&#1575;&#1604; &#1604;&#1606;&#1589; &#1610;&#1605;&#1603;&#1606; &#1571;&#1606; &#1610;&#1587;&#1578;&#1576;&#1583;&#1604; &#1601;&#1610; &#1606;&#1601;&#1587; &#1575;&#1604;&#1605;&#1587;&#1575;&#1581;&#1577;&#1548; &#1604;&#1602;&#1583; &#1578;&#1605; &#1578;&#1608;&#1604;&#1610;&#1583; &#1607;&#1584;&#1575; &#1575;&#1604;&#1606;&#1589; &#1605;&#1606; &#1605;&#1608;&#1604;&#1583; &#1575;&#1604;&#1606;&#1589; &#1575;&#1604;&#1593;&#1585;&#1576;&#1609;&#1548; &#1581;&#1610;&#1579; &#1610;&#1605;&#1603;&#1606;&#1603; &#1571;&#1606; &#1578;&#1608;&#1604;&#1583; &#1605;&#1579;&#1604; &#1607;&#1584;&#1575; &#1575;&#1604;&#1606;&#1589; &#1571;&#1608; &#1575;&#1604;&#1593;&#1583;&#1610;&#1583; &#1605;&#1606; &#1575;&#1604;&#1606;&#1589;&#1608;&#1589; &#1575;&#1604;&#1571;&#1582;&#1585;&#1609; &#1573;&#1590;&#1575;&#1601;&#1577; &#1573;&#1604;&#1609; &#1586;&#1610;&#1575;&#1583;&#1577; &#1593;&#1583;&#1583; &#1575;&#1604;&#1581;&#1585;&#1608;&#1601; &#1575;&#1604;&#1578;&#1609; &#1610;&#1608;&#1604;&#1583;&#1607;&#1575; &#1575;&#1604;&#1578;&#1591;&#1576;&#1610;&#1602;. &#1573;&#1584;&#1575; &#1603;&#1606;&#1578; &#1578;&#1581;&#1578;&#1575;&#1580; &#1573;&#1604;&#1609; &#1593;&#1583;&#1583; &#1571;&#1603;&#1576;&#1585; &#1605;&#1606; &#1575;&#1604;&#1601;&#1602;&#1585;&#1575;&#1578; &#1610;&#1578;&#1610;&#1581; &#1604;&#1603; &#1605;</span><span id="wb_uid14"><br></span>
+</div>
+<div id="FlexContainer1-divider-top">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4080 400" preserveAspectRatio="none">
+<path class="divider-fill" d="M2091.6,272.9c-21.8-43-35.2-89.7-35.2-137.9v-1c0-58.8,47.6-106.4,106.4-106.4H4080V0H0v27.6h1917.7
+	c58.8,0,106.4,47.6,106.4,106.4v0c0,48.4-12.9,95.8-35.6,138.5c-5.5,10.3-8,22.5-5.8,35.3c4.6,27.6,29,48.6,57,48.4
+	c31.7-0.1,58-25.9,58-57.6C2097.7,289.4,2095.5,280.6,2091.6,272.9z"/>
+</svg>
+</div>
+<div id="FlexContainer1-divider-bottom">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4080 400" preserveAspectRatio="none">
+<path class="divider-fill" d="M2091.6,272.9c-21.8-43-35.2-89.7-35.2-137.9v-1c0-58.8,47.6-106.4,106.4-106.4H4080V0H0v27.6h1917.7
+	c58.8,0,106.4,47.6,106.4,106.4v0c0,48.4-12.9,95.8-35.6,138.5c-5.5,10.3-8,22.5-5.8,35.3c4.6,27.6,29,48.6,57,48.4
+	c31.7-0.1,58-25.9,58-57.6C2097.7,289.4,2095.5,280.6,2091.6,272.9z"/>
+</svg>
+</div>
+</div>
+<div id="CardContainer2">
+<div id="wb_Card2" class="card">
+<div id="Card2-divider-bottom">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="divider-fill" d="M0,100L50,50L100,100L100,0L50,50L0,0L0,100Z" id="wb_uid15"/>
+<path class="divider-fill" d="M0,100L100,100L50,50L0,100Z"/>
+</svg></div>
+   <div id="Card2-card-body">
+      <div id="Card2-card-item0">أتصل الان</div>
+      <div id="Card2-card-item1">نقل العفش</div>
+   </div><div id="Card2-divider-top">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4080 400" preserveAspectRatio="none">
+<path class="divider-fill" d="M2091.6,272.9c-21.8-43-35.2-89.7-35.2-137.9v-1c0-58.8,47.6-106.4,106.4-106.4H4080V0H0v27.6h1917.7
+	c58.8,0,106.4,47.6,106.4,106.4v0c0,48.4-12.9,95.8-35.6,138.5c-5.5,10.3-8,22.5-5.8,35.3c4.6,27.6,29,48.6,57,48.4
+	c31.7-0.1,58-25.9,58-57.6C2097.7,289.4,2095.5,280.6,2091.6,272.9z"/>
+</svg>
+</div>
+
+</div>
+<div id="wb_Card1" class="card">
+<div id="Card1-divider-bottom">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="divider-fill" d="M0,100L50,50L100,100L100,0L50,50L0,0L0,100Z" id="wb_uid16"/>
+<path class="divider-fill" d="M0,100L100,100L50,50L0,100Z"/>
+</svg></div>
+   <div id="Card1-card-body">
+      <div id="Card1-card-item0">أتصل الان</div>
+      <div id="Card1-card-item1">نقل العفش</div>
+   </div>
+</div>
+<div id="wb_Card3" class="card">
+<div id="Card3-divider-bottom">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="divider-fill" d="M0,100L50,50L100,100L100,0L50,50L0,0L0,100Z" id="wb_uid17"/>
+<path class="divider-fill" d="M0,100L100,100L50,50L0,100Z"/>
+</svg></div>
+   <div id="Card3-card-body">
+      <div id="Card3-card-item0">أتصل الان</div>
+      <div id="Card3-card-item1">نقل العفش</div>
+   </div>
+</div>
+</div>
+<div id="wb_Divider5">
+<div id="Divider5">
+<hr id="DividerLine8">
+<div id="wb_Heading3">
+<h3 id="Heading3">شركة القاهرة لنقل العفش الى جميع انحاء مصر</h3>
+</div>
+<hr id="DividerLine9">
+</div>
+</div>
+<div id="CardContainer1">
+<div id="wb_Card4" class="card">
+<div id="Card4-divider-bottom">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="divider-fill" d="M0,100L50,50L100,100L100,0L50,50L0,0L0,100Z" id="wb_uid18"/>
+<path class="divider-fill" d="M0,100L100,100L50,50L0,100Z"/>
+</svg></div>
+   <div id="Card4-card-body">
+      <div id="Card4-card-item0">أتصل الان</div>
+      <div id="Card4-card-item1">نقل العفش</div>
+   </div>
+</div>
+<div id="wb_Card5" class="card">
+<div id="Card5-divider-bottom">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="divider-fill" d="M0,100L50,50L100,100L100,0L50,50L0,0L0,100Z" id="wb_uid19"/>
+<path class="divider-fill" d="M0,100L100,100L50,50L0,100Z"/>
+</svg></div>
+   <div id="Card5-card-body">
+      <div id="Card5-card-item0">أتصل الان</div>
+      <div id="Card5-card-item1">نقل العفش</div>
+   </div>
+</div>
+<div id="wb_Card6" class="card">
+<div id="Card6-divider-bottom">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="divider-fill" d="M0,100L50,50L100,100L100,0L50,50L0,0L0,100Z" id="wb_uid20"/>
+<path class="divider-fill" d="M0,100L100,100L50,50L0,100Z"/>
+</svg></div>
+   <div id="Card6-card-body">
+      <div id="Card6-card-item0">أتصل الان</div>
+      <div id="Card6-card-item1">نقل العفش</div>
+   </div>
+</div>
+</div>
+<div id="wb_social">
+<div id="social">
+<div class="row">
+<div class="col-1">
+<div id="wb_socialIcon1">
+<a href="./index.html"><div id="socialIcon1"><i class="fa fa-facebook"></i></div></a>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_socialIcon2">
+<a href="./index.html"><div id="socialIcon2"><i class="fa fa-instagram"></i></div></a>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_socialIcon3">
+<a href="./index.html"><div id="socialIcon3"><i class="fa fa-twitter"></i></div></a>
+</div>
+</div>
+<div class="col-4">
+<div id="wb_socialIcon4">
+<a href="./index.html"><div id="socialIcon4"><i class="fa fa-youtube"></i></div></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_links">
+<div id="links-divider-top">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 25" preserveAspectRatio="none">
+<path class="divider-fill" d="m 0,0 v 3.8265306 c 0,0 393.8,0 483.4,0 9.2,0 16.6,9.4387754 16.6,21.1734694 0,-11.607143 7.4,-21.1734694 16.6,-21.1734694 89.6,0 483.4,0 483.4,0 V 0 Z" />
+</svg>
+</div>
+<div id="links">
+<div class="row">
+<div class="col-1">
+<div id="wb_linksText1">
+<span id="wb_uid21"><strong>NAVIGATE</strong></span>
+</div>
+<div id="wb_linksMenu1">
+<ul id="linksMenu1" role="menubar" class="nav">
+<li role="menuitem" class="nav-item firstmain"><a class="nav-link" href="" target="_self">Home</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">About</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">Services</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">Products</a>
+</li>
+</ul>
+
+</div>
+</div>
+<div class="col-2">
+<div id="wb_linksText2">
+<span id="wb_uid22"><strong>CONNECT</strong></span>
+</div>
+<div id="wb_linksMenu2">
+<ul id="linksMenu2" role="menubar" class="nav">
+<li role="menuitem" class="nav-item firstmain"><a class="nav-link" href="" target="_self">Facebook</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">Instagram</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">Twitter</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">YouTube</a>
+</li>
+</ul>
+
+</div>
+</div>
+<div class="col-3">
+<div id="wb_linksText3">
+<span id="wb_uid23"><strong>MORE LINKS</strong></span>
+</div>
+<div id="wb_linksMenu3">
+<ul id="linksMenu3" role="menubar" class="nav">
+<li role="menuitem" class="nav-item firstmain"><a class="nav-link" href="" target="_self">Lorem&nbsp;Ipsum</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">Dolor&nbsp;Sit&nbsp;Amet</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">Consectetur&nbsp;Adipisicing</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">Sed&nbsp;Do&nbsp;Eiusmod</a>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_footer">
+<div id="footer">
+<div class="row">
+<div class="col-1">
+<div id="wb_footerText">
+<span id="wb_uid24">Copyright © 2019 WYSIWYG Web Builder.&nbsp; All Rights Reserved</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="socialmedia_sticky" title="Social Media Sticky">
+<a href="#"><img src="images/img0001.png" id="socialmedia_facebook" alt="" title="" width="150" height="45"></a>
+<a href="#"><img src="images/img0002.png" id="socialmedia_twitter" alt="" title="" width="150" height="45"></a>
+<a href="#"><img src="images/img0003.png" id="socialmedia_youtube" alt="" title="" width="150" height="45"></a>
+</div>
+<div id="Layer1" title="Social Media Sticky">
+<div id="wb_Shape1">
+<a href="tel:01024888950"><div id="Shape1"><div id="Shape1_text"><div><span id="wb_uid25">اتصل الان</span></div></div></div></a></div>
+<div id="wb_IconFont1">
+<a href="tel:01024888950"><div id="IconFont1"><i class="fa fa-phone-square"></i></div></a></div>
+</div>
+</body>
+</html>
