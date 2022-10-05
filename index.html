@@ -1,14 +1,16 @@
 <!doctype html>
-<html>
+<html dir="rtl">
 <head>
 <meta charset="utf-8">
-<title>Untitled Page</title>
+<title>شركة القاهرة لنقل العفش 01097124505 - 01066134758</title>
 <meta name="generator" content="WYSIWYG Web Builder 17 - https://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="logo.png" rel="icon" sizes="75x75" type="image/png">
+<link href="logo.png" rel="icon" sizes="75x75" type="image/png">
 <link href="css/font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Cairo:400,900&display=swap" rel="stylesheet">
-<link href="css/Untitled1.css?v=9" rel="stylesheet">
-<link href="css/index.css?v=9" rel="stylesheet">
+<link href="css/Untitled1.css?v=10" rel="stylesheet">
+<link href="css/index.css?v=10" rel="stylesheet">
 <script src="jquery-3.6.0.min.js"></script>
 <script src="wb.panel.min.js"></script>
 <script src="jquery-ui.min.js"></script>
@@ -19,14 +21,19 @@ $(document).ready(function()
 {
    $('#wb_Text2').addClass('visibility-hidden');
    $('#wb_Text3').addClass('visibility-hidden');
-   $('#wb_Text5').addClass('visibility-hidden');
    $('#wb_Text4').addClass('visibility-hidden');
+   $('#wb_Text5').addClass('visibility-hidden');
    $("a[href*='#LayoutGrid1']").click(function(event)
    {
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid1').offset().top }, 600, 'linear');
    });
-   $("#PanelMenu2").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'push', position: 'left', toggle: true, overlay: true});
+   $("a[href*='#LayoutGrid4']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid4').offset().top }, 600, 'linear');
+   });
+   $("#PanelMenu2").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'push', position: 'top', toggle: true, overlay: true});
    var Carousel1Opts =
    {
       delay: 2300,
@@ -39,6 +46,7 @@ $(document).ready(function()
       pause: null,
       start: 0
    };
+   $("#wb_Carousel1").attr('dir', 'ltr');
    $("#Carousel1").carouseleffects(Carousel1Opts);
    $("#PanelMenu1").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'push', position: 'left', toggle: true, overlay: true});
    $("#PanelMenu3").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'push', position: 'left', toggle: true, overlay: true});
@@ -95,30 +103,6 @@ $(document).ready(function()
    {
       onScrollText3();
    });
-   function onScrollText5()
-   {
-      var $obj = $("#wb_Text5");
-      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
-      {
-         $obj.addClass("in-viewport");
-         AnimateCss('wb_Text5', 'transform-shake', 0, 1250);
-      }
-      else
-      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
-      {
-         $obj.removeClass("in-viewport");
-         AnimateCss('wb_Text5', 'animate-fade-out', 0, 0);
-      }
-   }
-   if (!$('#wb_Text5').inViewPort(true))
-   {
-      $('#wb_Text5').addClass("in-viewport");
-   }
-   onScrollText5();
-   $(window).scroll(function(event)
-   {
-      onScrollText5();
-   });
    function onScrollText4()
    {
       var $obj = $("#wb_Text4");
@@ -172,6 +156,30 @@ $(document).ready(function()
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_footer').offset().top }, 600, 'linear');
    });
+   function onScrollText5()
+   {
+      var $obj = $("#wb_Text5");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text5', 'transform-bounce-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Text5', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Text5').inViewPort(true))
+   {
+      $('#wb_Text5').addClass("in-viewport");
+   }
+   onScrollText5();
+   $(window).scroll(function(event)
+   {
+      onScrollText5();
+   });
 });
 </script>
 <!-- Insert Google Analytics code here -->
@@ -185,11 +193,14 @@ $(document).ready(function()
 <div id="LayoutGrid1">
 <div class="row">
 <div class="col-1">
+<div id="wb_Image5">
+<img src="images/logo.png" id="Image5" alt="" width="616" height="616">
+</div>
 <div id="wb_Image1">
-<img src="images/logo.png" id="Image1" alt="" width="72" height="72">
+<img src="images/logo.png" id="Image1" alt="" width="616" height="616">
 </div>
 <div id="wb_Text1">
-<span id="wb_uid0"><strong>شركة القاهرة لنقل الأثاث</strong></span>
+<span id="wb_uid0">شركة القاهرة لنقل الأثاث</span>
 </div>
 </div>
 <div class="col-2">
@@ -204,6 +215,17 @@ $(document).ready(function()
 </ul>
 </div>
 
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid4">
+<div id="LayoutGrid4">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text6">
+<span id="wb_uid1"><strong>01097124505 -&nbsp; 01066134758</strong></span>
 </div>
 </div>
 </div>
@@ -260,7 +282,7 @@ $(document).ready(function()
 <div class="row">
 <div class="col-1">
 <div id="wb_Text2">
-<span id="wb_uid1">عن الشركة<br></span><span id="wb_uid2"><br></span><span id="wb_uid3">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.<br></span>
+<span id="wb_uid2">عن الشركة<br></span><span id="wb_uid3"><br></span><span id="wb_uid4">تنفرد شركة القاهرة لنقل الاثاث بامتلاك جميع المعدات والأجهزة اللازمة لاتمام عملية النقل بنجاح دون أن يقع اي خطأ ؛ لأن نقل الاثاث هو تخصصنا لذلك نعرف كل تفصيلة صغيرة في هذا المجال ولدينا خبرة طويلة في تقنيات النقل ونعرف كيف نتعامل مع كل قطعة من الاثاث لذلك تقدم الشركة افضل خدمة نقل اثاث فى جميع انحاء جمهورية مصر العربية .<br></span>
 </div>
 </div>
 </div>
@@ -271,7 +293,7 @@ $(document).ready(function()
 <div class="row">
 <div class="col-1">
 <div id="wb_Text5">
-<span id="wb_uid4"><br><strong>&#1582;&#1591;&#1608;&#1575;&#1578; &#1606;&#1602;&#1604; &#1575;&#1604;&#1593;&#1601;&#1588;<br><br></strong></span><span id="wb_uid5">&#1607;&#1584;&#1575; &#1575;&#1604;&#1606;&#1589; &#1607;&#1608; &#1605;&#1579;&#1575;&#1604; &#1604;&#1606;&#1589; &#1610;&#1605;&#1603;&#1606; &#1571;&#1606; &#1610;&#1587;&#1578;&#1576;&#1583;&#1604; &#1601;&#1610; &#1606;&#1601;&#1587; &#1575;&#1604;&#1605;&#1587;&#1575;&#1581;&#1577;&#1548; &#1604;&#1602;&#1583; &#1578;&#1605; &#1578;&#1608;&#1604;&#1610;&#1583; &#1607;&#1584;&#1575; &#1575;&#1604;&#1606;&#1589; &#1605;&#1606; &#1605;&#1608;&#1604;&#1583; &#1575;&#1604;&#1606;&#1589; &#1575;&#1604;&#1593;&#1585;&#1576;&#1609;&#1548; &#1581;&#1610;&#1579; &#1610;&#1605;&#1603;&#1606;&#1603; &#1571;&#1606; &#1578;&#1608;&#1604;&#1583; &#1605;&#1579;&#1604; &#1607;&#1584;&#1575; &#1575;&#1604;&#1606;&#1589; &#1571;&#1608; &#1575;&#1604;&#1593;&#1583;&#1610;&#1583; &#1605;&#1606; &#1575;&#1604;&#1606;&#1589;&#1608;&#1589; &#1575;&#1604;&#1571;&#1582;&#1585;&#1609; &#1573;&#1590;&#1575;&#1601;&#1577; &#1573;&#1604;&#1609; &#1586;&#1610;&#1575;&#1583;&#1577; &#1593;&#1583;&#1583; &#1575;&#1604;&#1581;&#1585;&#1608;&#1601; &#1575;&#1604;&#1578;&#1609; &#1610;&#1608;&#1604;&#1583;&#1607;&#1575; &#1575;&#1604;&#1578;&#1591;&#1576;&#1610;&#1602;. &#1573;&#1584;&#1575; &#1603;&#1606;&#1578; &#1578;&#1581;&#1578;&#1575;&#1580; &#1573;&#1604;&#1609; &#1593;&#1583;&#1583; &#1571;&#1603;&#1576;&#1585; &#1605;&#1606; &#1575;&#1604;&#1601;&#1602;&#1585;&#1575;&#1578; &#1610;&#1578;&#1610;&#1581; &#1604;&#1603; &#1605;</span><span id="wb_uid6"><br></span>
+<span id="wb_uid5">&#1610;&#1608;&#1580;&#1583; &#1576;&#1588;&#1585;&#1603;&#1577; &#1575;&#1604;&#1576;&#1585;&#1575;&#1602; &#1575;&#1610;&#1590;&#1575; &#1605;&#1580;&#1605;&#1608;&#1593; &#1605;&#1606; &#1571;&#1603;&#1601;&#1571; &#1575;&#1604;&#1593;&#1605;&#1575;&#1604; &#1608;&#1575;&#1604;&#1605;&#1578;&#1582;&#1589;&#1589;&#1610;&#1606; &#1601;&#1610; &#1575;&#1593;&#1605;&#1575;&#1604; &#1575;&#1604;&#1606;&#1602;&#1604; &#1580;&#1605;&#1610;&#1593;&#1605; &#1584;&#1608; &#1582;&#1576;&#1585;&#1577; &#1608;&#1603;&#1601;&#1575;&#1574;&#1577; &#1593;&#1575;&#1604;&#1610;&#1577; , &#1605;&#1606;&#1607;&#1605; &#1606;&#1580;&#1575;&#1585;&#1610;&#1610;&#1606; &#1605;&#1578;&#1582;&#1589;&#1589;&#1610;&#1606; &#1601;&#1610; &#1601;&#1603; &#1608;&#1578;&#1585;&#1603;&#1610;&#1576; &#1594;&#1585;&#1601; &#1575;&#1604;&#1606;&#1608;&#1605; &#1608;&#1594;&#1585;&#1601; &#1575;&#1604;&#1575;&#1591;&#1601;&#1575;&#1604; &#1608;&#1575;&#1604;&#1587;&#1601;&#1585;&#1577; &#1608;&#1575;&#1604;&#1605;&#1591;&#1575;&#1576;&#1582; &#1576;&#1605;&#1582;&#1578;&#1604;&#1601; &#1575;&#1606;&#1608;&#1575;&#1593;&#1607;&#1575; &#1575;&#1604;&#1582;&#1588;&#1576; &#1608;&#1575;&#1604;&#1575;&#1604;&#1608;&#1605;&#1610;&#1578;&#1575;&#1604; &#1608;&#1594;&#1610;&#1585;&#1607;&#1575; , &#1608;&#1601;&#1606;&#1610;&#1610;&#1606; &#1603;&#1607;&#1585;&#1576;&#1575;&#1569; &#1605;&#1578;&#1582;&#1589;&#1589;&#1608;&#1606; &#1601;&#1610; &#1601;&#1603; &#1608;&#1578;&#1585;&#1603;&#1610;&#1576; &#1575;&#1604;&#1575;&#1580;&#1607;&#1586;&#1577; &#1575;&#1604;&#1603;&#1607;&#1585;&#1576;&#1575;&#1574;&#1610;&#1577; &#1608;&#1575;&#1604;&#1606;&#1580;&#1601; &#1608;&#1575;&#1604;&#1594;&#1587;&#1575;&#1604;&#1575;&#1578; , &#1608;&#1601;&#1606;&#1610;&#1610;&#1606; &#1578;&#1603;&#1610;&#1610;&#1601; &#1605;&#1578;&#1582;&#1589;&#1589;&#1608;&#1606; &#1601;&#1610; &#1601;&#1603; &#1608;&#1578;&#1585;&#1603;&#1610;&#1576; &#1575;&#1604;&#1578;&#1603;&#1610;&#1610;&#1601;&#1575;&#1578; &#1576;&#1605;&#1582;&#1578;&#1604;&#1601; &#1571;&#1606;&#1608;&#1575;&#1593;&#1607;&#1575; , &#1603;&#1584;&#1604;&#1603; &#1604;&#1583;&#1610; &#1575;&#1604;&#1588;&#1585;&#1603;&#1577; &#1605;&#1580;&#1605;&#1608;&#1593;&#1577; &#1605;&#1606; &#1575;&#1604;&#1593;&#1605;&#1575;&#1604; &#1575;&#1604;&#1605;&#1578;&#1582;&#1589;&#1589;&#1610;&#1606; &#1601;&#1610; &#1578;&#1594;&#1604;&#1610;&#1601; &#1575;&#1604;&#1575;&#1579;&#1575;&#1579; &#1576;&#1603;&#1604; &#1575;&#1606;&#1608;&#1575;&#1593;&#1607; &#1610;&#1593;&#1585;&#1601;&#1608;&#1606; &#1580;&#1610;&#1583;&#1575;&#1611; &#1591;&#1585;&#1602; &#1578;&#1594;&#1604;&#1610;&#1601; &#1603;&#1604; &#1602;&#1591;&#1593;&#1577; &#1605;&#1606; &#1602;&#1591;&#1593; &#1575;&#1604;&#1575;&#1579;&#1575;&#1579; &#1608; &#1606;&#1608;&#1593; &#1575;&#1604;&#1605;&#1608;&#1575;&#1583; &#1575;&#1604;&#1604;&#1575;&#1586;&#1605;&#1577; &#1604;&#1578;&#1594;&#1604;&#1610;&#1601;&#1607;&#1575; , &#1603;&#1584;&#1604;&#1603; &#1604;&#1583;&#1610; &#1575;&#1604;&#1588;&#1585;&#1603;&#1577; &#1587;&#1575;&#1574;&#1602;&#1610;&#1606; &#1605;&#1581;&#1578;&#1585;&#1601;&#1610;&#1606; &#1608;&#1571;&#1603;&#1601;&#1571; &#1587;&#1575;&#1574;&#1602;&#1610; &#1571;&#1608;&#1606;&#1575;&#1588; &#1601;&#1610; &#1605;&#1589;&#1585; , &#1601;&#1588;&#1585;&#1603;&#1577; &#1575;&#1604;&#1576;&#1585;&#1575;&#1602; &#1605;&#1606; &#1575;&#1604;&#1588;&#1585;&#1603;&#1575;&#1578; &#1575;&#1604;&#1605;&#1578;&#1582;&#1589;&#1589;&#1577; &#1601;&#1610; &#1605;&#1580;&#1575;&#1604; &#1606;&#1602;&#1604; &#1575;&#1604;&#1593;&#1601;&#1588; &#1610;&#1605;&#1603;&#1606;&#1603; &#1575;&#1604;&#1575;&#1593;&#1578;&#1605;&#1575;&#1583; &#1593;&#1604;&#1610;&#1607;&#1575; &#1601;&#1610; &#1575;&#1610; &#1608;&#1602;&#1578;.<br></span><span id="wb_uid6"><br></span>
 </div>
 </div>
 </div>
@@ -288,7 +310,7 @@ $(document).ready(function()
 <div class="col-2">
 <div class="col-2-overlay"></div>
 <div id="wb_Text3">
-<span id="wb_uid7"><br><br></span><span id="wb_uid8"><strong>&#1582;&#1591;&#1608;&#1575;&#1578; &#1606;&#1602;&#1604; &#1575;&#1604;&#1593;&#1601;&#1588;<br></strong></span><span id="wb_uid9">&#1607;&#1584;&#1575; &#1575;&#1604;&#1606;&#1589; &#1607;&#1608; &#1605;&#1579;&#1575;&#1604; &#1604;&#1606;&#1589; &#1610;&#1605;&#1603;&#1606; &#1571;&#1606; &#1610;&#1587;&#1578;&#1576;&#1583;&#1604; &#1601;&#1610; &#1606;&#1601;&#1587; &#1575;&#1604;&#1605;&#1587;&#1575;&#1581;&#1577;&#1548; &#1604;&#1602;&#1583; &#1578;&#1605; &#1578;&#1608;&#1604;&#1610;&#1583; &#1607;&#1584;&#1575; &#1575;&#1604;&#1606;&#1589; &#1605;&#1606; &#1605;&#1608;&#1604;&#1583; &#1575;&#1604;&#1606;&#1589; &#1575;&#1604;&#1593;&#1585;&#1576;&#1609;&#1548; &#1581;&#1610;&#1579; &#1610;&#1605;&#1603;&#1606;&#1603; &#1571;&#1606; &#1578;&#1608;&#1604;&#1583; &#1605;&#1579;&#1604; &#1607;&#1584;&#1575; &#1575;&#1604;&#1606;&#1589; &#1571;&#1608; &#1575;&#1604;&#1593;&#1583;&#1610;&#1583; &#1605;&#1606; &#1575;&#1604;&#1606;&#1589;&#1608;&#1589; &#1575;&#1604;&#1571;&#1582;&#1585;&#1609; &#1573;&#1590;&#1575;&#1601;&#1577; &#1573;&#1604;&#1609; &#1586;&#1610;&#1575;&#1583;&#1577; &#1593;&#1583;&#1583; &#1575;&#1604;&#1581;&#1585;&#1608;&#1601; &#1575;&#1604;&#1578;&#1609; &#1610;&#1608;&#1604;&#1583;&#1607;&#1575; &#1575;&#1604;&#1578;&#1591;&#1576;&#1610;&#1602;. &#1573;&#1584;&#1575; &#1603;&#1606;&#1578; &#1578;&#1581;&#1578;&#1575;&#1580; &#1573;&#1604;&#1609; &#1593;&#1583;&#1583; &#1571;&#1603;&#1576;&#1585; &#1605;&#1606; &#1575;&#1604;&#1601;&#1602;&#1585;&#1575;&#1578; &#1610;&#1578;&#1610;&#1581; &#1604;&#1603; &#1605;&#1608;&#1604;&#1583; &#1575;&#1604;&#1606;&#1589; &#1575;&#1604;&#1593;&#1585;&#1576;&#1609; &#1586;&#1610;&#1575;&#1583;&#1577; &#1593;&#1583;&#1583; &#1575;&#1604;&#1601;&#1602;&#1585;&#1575;&#1578; &#1603;&#1605;&#1575; &#1578;&#1585;&#1610;&#1583;&#1548; &#1575;&#1604;&#1606;&#1589; &#1604;&#1606; &#1610;&#1576;&#1583;&#1608; &#1605;&#1602;&#1587;&#1605;&#1575; &#1608;&#1604;&#1575; &#1610;&#1581;&#1608;&#1610; &#1571;&#1582;&#1591;&#1575;&#1569; &#1604;&#1594;&#1608;&#1610;&#1577;&#1548; &#1605;&#1608;&#1604;&#1583; &#1575;&#1604;&#1606;&#1589; &#1575;&#1604;&#1593;&#1585;&#1576;&#1609; &#1605;&#1601;&#1610;&#1583; &#1604;&#1605;&#1589;&#1605;&#1605;&#1610; &#1575;&#1604;&#1605;&#1608;&#1575;&#1602;&#1593; &#1593;&#1604;&#1609; &#1608;&#1580;&#1607; &#1575;&#1604;&#1582;&#1589;&#1608;&#1589;&#1548; &#1581;&#1610;&#1579; &#1610;&#1581;&#1578;&#1575;&#1580; &#1575;&#1604;&#1593;&#1605;&#1610;&#1604; &#1601;&#1609; &#1603;&#1579;&#1610;&#1585; &#1605;&#1606; &#1575;&#1604;&#1571;&#1581;&#1610;&#1575;&#1606; &#1571;&#1606; &#1610;&#1591;&#1604;&#1593; &#1593;&#1604;&#1609; &#1589;&#1608;&#1585;&#1577; &#1581;&#1602;&#1610;&#1602;&#1610;&#1577; &#1604;&#1578;&#1589;&#1605;&#1610;&#1605; &#1575;&#1604;&#1605;&#1608;&#1602;&#1593;.<br></span><span id="wb_uid10"><br></span><span id="wb_uid11"><br></span>
+<span id="wb_uid7"><br><br></span><span id="wb_uid8"><strong>&#1582;&#1591;&#1608;&#1575;&#1578; &#1606;&#1602;&#1604; &#1575;&#1604;&#1593;&#1601;&#1588;<br></strong></span><span id="wb_uid9">الكثير منا عندما يفكر في الانتقال الي مسكن جديد يفكر في كيفية نقل كل القطع الكبيرة والصغيرة وانزالها من الادوار العالية دون ان تتعرض لاي ضرر , لكن مع ونش رفع الأثاث الذي توفره شركة القاهرة باعتبارها واحدة من افضل شركات نقل عفش اصبح الامر في غاية السهولة لان هذه الاوناش تستطيع ان تصل الي الادوار الشاهقة&nbsp; وتقوم بانزال القطع الكبيرة التي يصعب تفكيكها ورفعها بكل سهولة ويسر دون ان تتعرض لأي خدش أو كسر&nbsp; كما كان يحدث عند انزاله او رفعه عن طريق المصاعد أو المداخل الضيقة , وبذلك شركة القاهرة افضل شركة نقل عفش تضمن لك توصيل عفش منزلك أو فيلتك أو شقتك أو شركتك او حتي مكتبك لاي مكان في مصر مهما كانت المسافة بعيدة دون تلف أو خدش صغير , فلا ترهق نفسك او تضيع وقت في عناء عمليات النقل واترك ذلك لشركة متخصصة وذو خبرة في مجال نقل العفش كشركة القاهرة افضل شركة نقل عفش .<br></span><span id="wb_uid10"><br></span><span id="wb_uid11"><br></span>
 </div>
 <div id="wb_ThemeableButton3">
 <a class="ui-button ui-widget ui-corner-all" id="ThemeableButton3" href="tel:01024888950"><span class="ui-button-icon-space"> </span><span class="ui-button-icon ui-icon ui-secondary"></span>أحجز اليوم</a>
@@ -338,7 +360,7 @@ $(document).ready(function()
 <div id="FlexContainer1">
 <div id="FlexContainer1-overlay"></div>
 <div id="wb_Text4">
-<span id="wb_uid12"><br><strong>&#1582;&#1591;&#1608;&#1575;&#1578; &#1606;&#1602;&#1604; &#1575;&#1604;&#1593;&#1601;&#1588;<br><br></strong></span><span id="wb_uid13">&#1607;&#1584;&#1575; &#1575;&#1604;&#1606;&#1589; &#1607;&#1608; &#1605;&#1579;&#1575;&#1604; &#1604;&#1606;&#1589; &#1610;&#1605;&#1603;&#1606; &#1571;&#1606; &#1610;&#1587;&#1578;&#1576;&#1583;&#1604; &#1601;&#1610; &#1606;&#1601;&#1587; &#1575;&#1604;&#1605;&#1587;&#1575;&#1581;&#1577;&#1548; &#1604;&#1602;&#1583; &#1578;&#1605; &#1578;&#1608;&#1604;&#1610;&#1583; &#1607;&#1584;&#1575; &#1575;&#1604;&#1606;&#1589; &#1605;&#1606; &#1605;&#1608;&#1604;&#1583; &#1575;&#1604;&#1606;&#1589; &#1575;&#1604;&#1593;&#1585;&#1576;&#1609;&#1548; &#1581;&#1610;&#1579; &#1610;&#1605;&#1603;&#1606;&#1603; &#1571;&#1606; &#1578;&#1608;&#1604;&#1583; &#1605;&#1579;&#1604; &#1607;&#1584;&#1575; &#1575;&#1604;&#1606;&#1589; &#1571;&#1608; &#1575;&#1604;&#1593;&#1583;&#1610;&#1583; &#1605;&#1606; &#1575;&#1604;&#1606;&#1589;&#1608;&#1589; &#1575;&#1604;&#1571;&#1582;&#1585;&#1609; &#1573;&#1590;&#1575;&#1601;&#1577; &#1573;&#1604;&#1609; &#1586;&#1610;&#1575;&#1583;&#1577; &#1593;&#1583;&#1583; &#1575;&#1604;&#1581;&#1585;&#1608;&#1601; &#1575;&#1604;&#1578;&#1609; &#1610;&#1608;&#1604;&#1583;&#1607;&#1575; &#1575;&#1604;&#1578;&#1591;&#1576;&#1610;&#1602;. &#1573;&#1584;&#1575; &#1603;&#1606;&#1578; &#1578;&#1581;&#1578;&#1575;&#1580; &#1573;&#1604;&#1609; &#1593;&#1583;&#1583; &#1571;&#1603;&#1576;&#1585; &#1605;&#1606; &#1575;&#1604;&#1601;&#1602;&#1585;&#1575;&#1578; &#1610;&#1578;&#1610;&#1581; &#1604;&#1603; &#1605;</span><span id="wb_uid14"><br></span>
+<span id="wb_uid12"><br></span><span id="wb_uid13">معظمنا يبحث عن شركة متخصصة في نقل الاثاث عندما يفكر في الانتقال الي مسكن جديد , شركة تتولي هذه المهمة وتقوم بنقل كل العفش والقطع الكبيرة والصغيرة دون أن يتعرض العفش لأي ضرر , وشركة القاهرة تعتبر من أفضل شركات نقل عفش بمصر:<br></span>
 </div>
 <div id="FlexContainer1-divider-top">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4080 400" preserveAspectRatio="none">
@@ -356,15 +378,15 @@ $(document).ready(function()
 </div>
 </div>
 <div id="CardContainer2">
-<div id="wb_Card2" class="card">
+<div id="wb_Card2" class="card" onclick="window.location.href='tel:01024888950';return false;">
 <div id="Card2-divider-bottom">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-<path class="divider-fill" d="M0,100L50,50L100,100L100,0L50,50L0,0L0,100Z" id="wb_uid15"/>
+<path class="divider-fill" d="M0,100L50,50L100,100L100,0L50,50L0,0L0,100Z" id="wb_uid14"/>
 <path class="divider-fill" d="M0,100L100,100L50,50L0,100Z"/>
 </svg></div>
    <div id="Card2-card-body">
       <div id="Card2-card-item0">أتصل الان</div>
-      <div id="Card2-card-item1">نقل العفش</div>
+      <div id="Card2-card-item1">نجاريين للفك والتركيب</div>
    </div><div id="Card2-divider-top">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4080 400" preserveAspectRatio="none">
 <path class="divider-fill" d="M2091.6,272.9c-21.8-43-35.2-89.7-35.2-137.9v-1c0-58.8,47.6-106.4,106.4-106.4H4080V0H0v27.6h1917.7
@@ -377,23 +399,23 @@ $(document).ready(function()
 <div id="wb_Card1" class="card">
 <div id="Card1-divider-bottom">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-<path class="divider-fill" d="M0,100L50,50L100,100L100,0L50,50L0,0L0,100Z" id="wb_uid16"/>
+<path class="divider-fill" d="M0,100L50,50L100,100L100,0L50,50L0,0L0,100Z" id="wb_uid15"/>
 <path class="divider-fill" d="M0,100L100,100L50,50L0,100Z"/>
 </svg></div>
    <div id="Card1-card-body">
       <div id="Card1-card-item0">أتصل الان</div>
-      <div id="Card1-card-item1">نقل العفش</div>
+      <div id="Card1-card-item1">اوناش هيدروليكة لرفع وتنزيل العفش</div>
    </div>
 </div>
 <div id="wb_Card3" class="card">
 <div id="Card3-divider-bottom">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-<path class="divider-fill" d="M0,100L50,50L100,100L100,0L50,50L0,0L0,100Z" id="wb_uid17"/>
+<path class="divider-fill" d="M0,100L50,50L100,100L100,0L50,50L0,0L0,100Z" id="wb_uid16"/>
 <path class="divider-fill" d="M0,100L100,100L50,50L0,100Z"/>
 </svg></div>
    <div id="Card3-card-body">
       <div id="Card3-card-item0">أتصل الان</div>
-      <div id="Card3-card-item1">نقل العفش</div>
+      <div id="Card3-card-item1">سيارات نقل مغلقة</div>
    </div>
 </div>
 </div>
@@ -410,34 +432,34 @@ $(document).ready(function()
 <div id="wb_Card4" class="card">
 <div id="Card4-divider-bottom">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-<path class="divider-fill" d="M0,100L50,50L100,100L100,0L50,50L0,0L0,100Z" id="wb_uid18"/>
+<path class="divider-fill" d="M0,100L50,50L100,100L100,0L50,50L0,0L0,100Z" id="wb_uid17"/>
 <path class="divider-fill" d="M0,100L100,100L50,50L0,100Z"/>
 </svg></div>
    <div id="Card4-card-body">
       <div id="Card4-card-item0">أتصل الان</div>
-      <div id="Card4-card-item1">نقل العفش</div>
+      <div id="Card4-card-item1">عمالة مدربة لنقل العفش</div>
    </div>
 </div>
 <div id="wb_Card5" class="card">
 <div id="Card5-divider-bottom">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-<path class="divider-fill" d="M0,100L50,50L100,100L100,0L50,50L0,0L0,100Z" id="wb_uid19"/>
+<path class="divider-fill" d="M0,100L50,50L100,100L100,0L50,50L0,0L0,100Z" id="wb_uid18"/>
 <path class="divider-fill" d="M0,100L100,100L50,50L0,100Z"/>
 </svg></div>
    <div id="Card5-card-body">
       <div id="Card5-card-item0">أتصل الان</div>
-      <div id="Card5-card-item1">نقل العفش</div>
+      <div id="Card5-card-item1">سيارات نقل مجهزة</div>
    </div>
 </div>
 <div id="wb_Card6" class="card">
 <div id="Card6-divider-bottom">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-<path class="divider-fill" d="M0,100L50,50L100,100L100,0L50,50L0,0L0,100Z" id="wb_uid20"/>
+<path class="divider-fill" d="M0,100L50,50L100,100L100,0L50,50L0,0L0,100Z" id="wb_uid19"/>
 <path class="divider-fill" d="M0,100L100,100L50,50L0,100Z"/>
 </svg></div>
    <div id="Card6-card-body">
       <div id="Card6-card-item0">أتصل الان</div>
-      <div id="Card6-card-item1">نقل العفش</div>
+      <div id="Card6-card-item1">تغليف شامل للعفش</div>
    </div>
 </div>
 </div>
@@ -446,7 +468,7 @@ $(document).ready(function()
 <div class="row">
 <div class="col-1">
 <div id="wb_socialIcon1">
-<a href="./index.html"><div id="socialIcon1"><i class="fa fa-facebook"></i></div></a>
+<a href="https://www.facebook.com/CairoFurnitureMovers"><div id="socialIcon1"><i class="fa fa-facebook"></i></div></a>
 </div>
 </div>
 <div class="col-2">
@@ -477,17 +499,17 @@ $(document).ready(function()
 <div class="row">
 <div class="col-1">
 <div id="wb_linksText1">
-<span id="wb_uid21"><strong>NAVIGATE</strong></span>
+<span id="wb_uid20"><strong>خريطة الموقع</strong></span>
 </div>
 <div id="wb_linksMenu1">
 <ul id="linksMenu1" role="menubar" class="nav">
-<li role="menuitem" class="nav-item firstmain"><a class="nav-link" href="" target="_self">Home</a>
+<li role="menuitem" class="nav-item firstmain"><a class="nav-link" href="" target="_self">الرئيسية</a>
 </li>
-<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">About</a>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">خدماتنا</a>
 </li>
-<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">Services</a>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">عن&nbsp;الشركة</a>
 </li>
-<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">Products</a>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">للتواصل</a>
 </li>
 </ul>
 
@@ -495,7 +517,7 @@ $(document).ready(function()
 </div>
 <div class="col-2">
 <div id="wb_linksText2">
-<span id="wb_uid22"><strong>CONNECT</strong></span>
+<span id="wb_uid21"><strong>تواصل اجتماعى</strong></span>
 </div>
 <div id="wb_linksMenu2">
 <ul id="linksMenu2" role="menubar" class="nav">
@@ -513,17 +535,17 @@ $(document).ready(function()
 </div>
 <div class="col-3">
 <div id="wb_linksText3">
-<span id="wb_uid23"><strong>MORE LINKS</strong></span>
+<span id="wb_uid22"><strong>روابط اخرى</strong></span>
 </div>
 <div id="wb_linksMenu3">
 <ul id="linksMenu3" role="menubar" class="nav">
-<li role="menuitem" class="nav-item firstmain"><a class="nav-link" href="" target="_self">Lorem&nbsp;Ipsum</a>
+<li role="menuitem" class="nav-item firstmain"><a class="nav-link" href="" target="_self">شركة&nbsp;نقل&nbsp;عفش</a>
 </li>
-<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">Dolor&nbsp;Sit&nbsp;Amet</a>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">تغليف&nbsp;عفش</a>
 </li>
-<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">Consectetur&nbsp;Adipisicing</a>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">نجاريين&nbsp;فك&nbsp;وتركيب</a>
 </li>
-<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">Sed&nbsp;Do&nbsp;Eiusmod</a>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">ونش&nbsp;هيدروليكى</a>
 </li>
 </ul>
 
@@ -537,20 +559,20 @@ $(document).ready(function()
 <div class="row">
 <div class="col-1">
 <div id="wb_footerText">
-<span id="wb_uid24">Copyright © 2019 WYSIWYG Web Builder.&nbsp; All Rights Reserved</span>
+<span id="wb_uid23">جميع الحقوق محفوظة لشركة القاهرة لنقل العفش</span>
 </div>
 </div>
 </div>
 </div>
 </div>
 <div id="socialmedia_sticky" title="Social Media Sticky">
-<a href="#"><img src="images/img0001.png" id="socialmedia_facebook" alt="" title="" width="150" height="45"></a>
+<a href="https://www.facebook.com/CairoFurnitureMovers"><img src="images/img0001.png" id="socialmedia_facebook" alt="" title="" width="150" height="45"></a>
 <a href="#"><img src="images/img0002.png" id="socialmedia_twitter" alt="" title="" width="150" height="45"></a>
 <a href="#"><img src="images/img0003.png" id="socialmedia_youtube" alt="" title="" width="150" height="45"></a>
 </div>
 <div id="Layer1" title="Social Media Sticky">
 <div id="wb_Shape1">
-<a href="tel:01024888950"><div id="Shape1"><div id="Shape1_text"><div><span id="wb_uid25">اتصل الان</span></div></div></div></a></div>
+<a href="tel:01024888950"><div id="Shape1"><div id="Shape1_text"><div><span id="wb_uid24">اتصل الان</span></div></div></div></a></div>
 <div id="wb_IconFont1">
 <a href="tel:01024888950"><div id="IconFont1"><i class="fa fa-phone-square"></i></div></a></div>
 </div>

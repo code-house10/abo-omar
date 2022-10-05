@@ -35,19 +35,44 @@ input:focus, textarea:focus, select:focus
 {
    visibility: hidden;
 }
+#wb_Image5
+{
+   margin: 0;
+   direction: ltr;
+   vertical-align: top;
+}
+#Image5
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 60px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
 #wb_Image1
 {
    margin: 0;
+   direction: ltr;
    vertical-align: top;
 }
 #Image1
 {
    border: 0px solid #000000;
    border-radius: 0px;
+   box-sizing: border-box;
    padding: 0;
-   display: inline-block;
-   width: 72px;
-   height: 72px;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 0px;
+   margin-left: auto;
+   margin-right: auto;
    vertical-align: top;
 }
 #wb_LayoutGrid1
@@ -96,7 +121,7 @@ input:focus, textarea:focus, select:focus
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    width: 66.66666667%;
-   text-align: left;
+   text-align: center;
 }
 #LayoutGrid1 > .row > .col-2
 {
@@ -155,10 +180,79 @@ input:focus, textarea:focus, select:focus
    transform-origin: 50% 50%;
    transform: rotate(-90deg) scale(1, 1);
 }
+#wb_LayoutGrid4
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid4
+{
+   box-sizing: border-box;
+   padding: 0 15px 0 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid4 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid4:before,
+#LayoutGrid4:after,
+#LayoutGrid4 .row:before,
+#LayoutGrid4 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid4:after,
+#LayoutGrid4 .row:after
+{
+   clear: both;
+}
+@media (max-width: 320px)
+{
+#LayoutGrid4 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
 #wb_PanelMenu2 a, #PanelMenu2_markup li a
 {
    display: block;
-   text-align: left;
+   text-align: center;
    vertical-align: middle;
 }
 #PanelMenu2_markup
@@ -194,9 +288,7 @@ input:focus, textarea:focus, select:focus
 {
    display: none;
    position: fixed;
-   top: 0;
-   height: 100%;
-   width: 250px;
+   width: 100%;
    z-index: 9999;
 }
 #PanelMenu2_overlay
@@ -213,11 +305,11 @@ input:focus, textarea:focus, select:focus
 }
 #PanelMenu2_markup li a
 {
-   color: #F7F7F7;
+   color: #FFA500;
    border: 0px solid #2E2E2E;
-   background-color: #454744;
+   background-color: #0A0057;
    font-family: Cairo;
-   font-weight: normal;
+   font-weight: bold;
    font-size: 13px;
    font-style: normal;
    text-decoration: none;
@@ -229,7 +321,7 @@ input:focus, textarea:focus, select:focus
    border-radius: 0px;
    background-color: #0A0057;
    font-family: Cairo;
-   font-weight: normal;
+   font-weight: bold;
    font-size: 13px;
    font-style: normal;
    text-decoration: none;
@@ -237,8 +329,8 @@ input:focus, textarea:focus, select:focus
 }
 #PanelMenu2_markup li a:hover
 {
-   color: #454744;
-   background-color: #B7B7B7;
+   color: #FF8C00;
+   background-color: #0A0057;
    border: 0px solid #2E2E2E;
 }
 #wb_PanelMenu2 a:hover
@@ -249,7 +341,7 @@ input:focus, textarea:focus, select:focus
 }
 #PanelMenu2_panel
 {
-   background-color: #454744;
+   background-color: #0A0057;
    overflow-y: auto;
 }
 #PanelMenu2
@@ -286,18 +378,18 @@ input:focus, textarea:focus, select:focus
    border-radius: 0px;
    padding: 0;
    margin: 10px 0 0 2px;
-   text-align: left;
+   text-align: center;
 }
 #wb_Text1 div
 {
-   text-align: left;
+   text-align: center;
 }
 #wb_Text1
 {
-   display: inline-block;
+   display: block;
    margin: 10px 0 0 2px;
-   width: 183px;
-   height: 33px;
+   box-sizing: border-box;
+   width: calc(100% - 2px);
 }
 #wb_Carousel1
 {
@@ -808,6 +900,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_Image2
 {
+   direction: ltr;
    vertical-align: top;
 }
 #Image2
@@ -1035,11 +1128,11 @@ input:focus, textarea:focus, select:focus
    border-radius: 0px;
    padding: 0;
    margin: 0;
-   text-align: center;
+   text-align: justify;
 }
 #wb_Text2 div
 {
-   text-align: center;
+   text-align: justify;
 }
 #wb_Text2
 {
@@ -1130,11 +1223,11 @@ input:focus, textarea:focus, select:focus
    border-radius: 0px;
    padding: 0;
    margin: 0;
-   text-align: center;
+   text-align: justify;
 }
 #wb_Text3 div
 {
-   text-align: center;
+   text-align: justify;
 }
 #wb_Text3
 {
@@ -1160,7 +1253,7 @@ input:focus, textarea:focus, select:focus
 #wb_ThemeableButton3
 {
    border-radius: 0px;
-   margin: 0;
+   margin: 0 0 25px 0 ;
    vertical-align: top;
 }
 #ThemeableButton3
@@ -1639,27 +1732,6 @@ input:focus, textarea:focus, select:focus
    transform-origin: bottom;
    transform: rotateY(0deg);
 }
-#wb_Text5 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 25px 0 75px 0 ;
-   text-align: center;
-}
-#wb_Text5 div
-{
-   text-align: center;
-}
-#wb_Text5
-{
-   display: block;
-   margin: 25px 0 75px 0 ;
-   box-sizing: border-box;
-   width: 100%;
-}
 #wb_Text4 
 {
    background-color: transparent;
@@ -1671,11 +1743,11 @@ input:focus, textarea:focus, select:focus
    align-self: auto;
    padding: 0;
    margin: 25px 0 75px 0 ;
-   text-align: center;
+   text-align: justify;
 }
 #wb_Text4 div
 {
-   text-align: center;
+   text-align: justify;
 }
 #wb_Card1
 {
@@ -2290,7 +2362,7 @@ input:focus, textarea:focus, select:focus
 {
    clear: both;
 }
-@media (max-width: 325px)
+@media (max-width: 320px)
 {
 #social > .row > .col-1, #social > .row > .col-2, #social > .row > .col-3, #social > .row > .col-4
 {
@@ -2587,8 +2659,8 @@ input:focus, textarea:focus, select:focus
 }
 #wb_linksText1
 {
-   color: #696969;
-   font-family: Arial;
+   color: #FF8C00;
+   font-family: Cairo;
    font-weight: normal;
    font-size: 15px;
 }
@@ -2632,7 +2704,7 @@ input:focus, textarea:focus, select:focus
    border: 0px solid #CCCCCC;
    background-color: transparent;
    background-image: none;
-   font-family: Arial;
+   font-family: Cairo;
    font-weight: normal;
    font-size: 13px;
    font-style: normal;
@@ -2679,8 +2751,8 @@ input:focus, textarea:focus, select:focus
 }
 #wb_linksText2
 {
-   color: #696969;
-   font-family: Arial;
+   color: #FF8C00;
+   font-family: Cairo;
    font-weight: normal;
    font-size: 15px;
 }
@@ -2771,8 +2843,8 @@ input:focus, textarea:focus, select:focus
 }
 #wb_linksText3
 {
-   color: #696969;
-   font-family: Arial;
+   color: #FF8C00;
+   font-family: Cairo;
    font-weight: normal;
    font-size: 15px;
 }
@@ -2816,7 +2888,7 @@ input:focus, textarea:focus, select:focus
    border: 0px solid #CCCCCC;
    background-color: transparent;
    background-image: none;
-   font-family: Arial;
+   font-family: Cairo;
    font-weight: normal;
    font-size: 13px;
    font-style: normal;
@@ -2933,7 +3005,7 @@ input:focus, textarea:focus, select:focus
 #wb_footerText
 {
    color: #000000;
-   font-family: Arial;
+   font-family: Cairo;
    font-weight: normal;
    font-size: 15px;
 }
@@ -3272,6 +3344,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_Image3
 {
+   direction: ltr;
    vertical-align: top;
 }
 #Image3
@@ -3497,6 +3570,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_Image4
 {
+   direction: ltr;
    vertical-align: top;
 }
 #Image4
@@ -3510,6 +3584,54 @@ input:focus, textarea:focus, select:focus
    width: 100%;
    height: 100%;
 }
+#wb_Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 10px 0 0 2px;
+   text-align: center;
+}
+#wb_Text6 div
+{
+   text-align: center;
+}
+#wb_Text6
+{
+   display: inline-block;
+   margin: 10px 0 0 2px;
+   width: 432px;
+   height: 33px;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Text5 div
+{
+   text-align: justify;
+}
+#wb_Text5
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_uid24
+{
+   color: #000000;
+   font-family: "Cairo";
+   font-size: 13px;
+}
 #wb_Shape1
 {
    position: absolute;
@@ -3517,7 +3639,7 @@ input:focus, textarea:focus, select:focus
    top: 45px;
    width: 82px;
    height: 43px;
-   z-index: 40;
+   z-index: 42;
 }
 #socialmedia_facebook
 {
@@ -3527,31 +3649,27 @@ input:focus, textarea:focus, select:focus
    top: 1px;
    width: 150px;
    height: 45px;
-   z-index: 37;
-}
-#wb_uid24
-{
-   color: #000000;
+   z-index: 39;
 }
 #wb_Card6
 {
    display: flex;
    text-align: center;
-   z-index: 25;
+   z-index: 27;
 }
 #wb_uid12
 {
    color: #000000;
    font-family: "Cairo";
    font-size: 19px;
-   line-height: 35px;
+   line-height: 30px;
 }
 #wb_uid5
 {
    color: #000000;
    font-family: "Cairo";
-   font-size: 16px;
-   line-height: 30px;
+   font-size: 15px;
+   line-height: 27px;
 }
 #wb_ThemeableButton1
 {
@@ -3560,17 +3678,17 @@ input:focus, textarea:focus, select:focus
    top: 122px;
    width: 114px;
    height: 46px;
-   z-index: 3;
+   z-index: 5;
 }
 #wb_uid23
 {
-   color: #696969;
+   color: #000000;
 }
 #wb_Card1
 {
    display: flex;
    text-align: center;
-   z-index: 18;
+   z-index: 20;
 }
 #wb_uid13
 {
@@ -3583,8 +3701,8 @@ input:focus, textarea:focus, select:focus
 {
    color: #000000;
    font-family: "Cairo";
-   font-size: 19px;
-   line-height: 35px;
+   font-size: 16px;
+   line-height: 30px;
 }
 #wb_PanelMenu2
 {
@@ -3592,17 +3710,17 @@ input:focus, textarea:focus, select:focus
    width: 63px;
    height: 70px;
    text-align: right;
-   z-index: 2;
+   z-index: 3;
+}
+#wb_uid22
+{
+   color: #FF8C00;
 }
 #wb_linksMenu2
 {
    display: inline-block;
    width: 100%;
-   z-index: 33;
-}
-#wb_uid22
-{
-   color: #696969;
+   z-index: 35;
 }
 #wb_uid10
 {
@@ -3614,32 +3732,32 @@ input:focus, textarea:focus, select:focus
 #wb_uid3
 {
    color: #000000;
-   font-family: "Cairo";
+   font-family: "Arial";
    font-size: 13px;
-   line-height: 25px;
+   line-height: 30px;
 }
 #wb_Image1
 {
    display: inline-block;
-   width: 72px;
-   height: 72px;
-   z-index: 0;
+   width: 100%;
+   height: auto;
+   z-index: 1;
 }
 #wb_linksMenu3
 {
    display: inline-block;
    width: 100%;
-   z-index: 35;
+   z-index: 37;
 }
 #wb_uid21
 {
-   color: #696969;
+   color: #FF8C00;
 }
 #wb_Card3
 {
    display: flex;
    text-align: center;
-   z-index: 19;
+   z-index: 21;
 }
 #wb_uid11
 {
@@ -3651,9 +3769,9 @@ input:focus, textarea:focus, select:focus
 #wb_uid2
 {
    color: #000000;
-   font-family: "Arial";
-   font-size: 13px;
-   line-height: 25px;
+   font-family: "Cairo";
+   font-size: 20px;
+   line-height: 37px;
 }
 #wb_Image2
 {
@@ -3662,11 +3780,11 @@ input:focus, textarea:focus, select:focus
    top: 160px;
    width: 286px;
    height: 227px;
-   z-index: 5;
+   z-index: 7;
 }
 #wb_uid20
 {
-   fill-opacity: 0.5;
+   color: #FF8C00;
 }
 #wb_uid16
 {
@@ -3676,14 +3794,7 @@ input:focus, textarea:focus, select:focus
 {
    display: flex;
    text-align: center;
-   z-index: 17;
-}
-#wb_uid1
-{
-   color: #000000;
-   font-family: "Cairo";
-   font-size: 20px;
-   line-height: 37px;
+   z-index: 19;
 }
 #wb_Image3
 {
@@ -3692,13 +3803,19 @@ input:focus, textarea:focus, select:focus
    top: 152px;
    width: 286px;
    height: 227px;
-   z-index: 11;
+   z-index: 13;
+}
+#wb_uid1
+{
+   color: #002980;
+   font-family: "Cairo";
+   font-size: 20px;
 }
 #wb_linksMenu1
 {
    display: inline-block;
    width: 100%;
-   z-index: 31;
+   z-index: 33;
 }
 #wb_uid17
 {
@@ -3711,7 +3828,7 @@ input:focus, textarea:focus, select:focus
    top: 153px;
    width: 180px;
    height: 233px;
-   z-index: 8;
+   z-index: 10;
 }
 #wb_uid0
 {
@@ -3721,14 +3838,18 @@ input:focus, textarea:focus, select:focus
 }
 #wb_uid14
 {
-   color: #000000;
-   font-family: "Arial";
-   font-size: 13px;
-   line-height: 16px;
+   fill-opacity: 0.5;
 }
 #Carousel1
 {
    position: absolute;
+}
+#wb_Image5
+{
+   display: inline-block;
+   width: 100%;
+   height: auto;
+   z-index: 0;
 }
 #wb_uid15
 {
@@ -3738,10 +3859,10 @@ input:focus, textarea:focus, select:focus
 {
    position: absolute;
    left: 0px;
-   top: 72px;
+   top: 146px;
    width: 970px;
    height: 471px;
-   z-index: 43;
+   z-index: 46;
    overflow: hidden;
    position: relative;
 }
@@ -3787,7 +3908,7 @@ input:focus, textarea:focus, select:focus
    top: 114px;
    width: 114px;
    height: 46px;
-   z-index: 9;
+   z-index: 11;
 }
 #wb_IconFont1
 {
@@ -3797,7 +3918,7 @@ input:focus, textarea:focus, select:focus
    width: 54px;
    height: 49px;
    text-align: center;
-   z-index: 41;
+   z-index: 43;
 }
 #socialmedia_sticky
 {
@@ -3805,10 +3926,11 @@ input:focus, textarea:focus, select:focus
    text-align: left;
    left: auto;
    right: -130px;
-   top: 125px;
+   top: 50%;
+   margin-top: 53px;
    width: 175px;
    height: 144px;
-   z-index: 55;
+   z-index: 58;
 }
 #wb_uid18
 {
@@ -3818,7 +3940,7 @@ input:focus, textarea:focus, select:focus
 {
    display: inline-block;
    width: 390px;
-   z-index: 21;
+   z-index: 23;
 }
 #wb_ThemeableButton7
 {
@@ -3827,7 +3949,7 @@ input:focus, textarea:focus, select:focus
    top: 114px;
    width: 114px;
    height: 46px;
-   z-index: 10;
+   z-index: 12;
 }
 #Layer1
 {
@@ -3838,7 +3960,7 @@ input:focus, textarea:focus, select:focus
    bottom: 0px;
    width: 175px;
    height: 144px;
-   z-index: 56;
+   z-index: 59;
 }
 #socialmedia_twitter
 {
@@ -3848,7 +3970,7 @@ input:focus, textarea:focus, select:focus
    top: 46px;
    width: 150px;
    height: 45px;
-   z-index: 38;
+   z-index: 40;
 }
 #wb_uid19
 {
@@ -3861,7 +3983,7 @@ input:focus, textarea:focus, select:focus
    top: 116px;
    width: 114px;
    height: 46px;
-   z-index: 6;
+   z-index: 8;
 }
 #wb_uid9
 {
@@ -3877,7 +3999,7 @@ input:focus, textarea:focus, select:focus
    top: 116px;
    width: 114px;
    height: 46px;
-   z-index: 7;
+   z-index: 9;
 }
 #socialmedia_youtube
 {
@@ -3887,13 +4009,13 @@ input:focus, textarea:focus, select:focus
    top: 91px;
    width: 150px;
    height: 45px;
-   z-index: 39;
+   z-index: 41;
 }
 #wb_Card5
 {
    display: flex;
    text-align: center;
-   z-index: 24;
+   z-index: 26;
 }
 #DividerLine9
 {
@@ -3917,20 +4039,20 @@ input:focus, textarea:focus, select:focus
    top: 122px;
    width: 114px;
    height: 46px;
-   z-index: 4;
+   z-index: 6;
 }
 #wb_Card4
 {
    display: flex;
    text-align: center;
-   z-index: 23;
+   z-index: 25;
 }
 #wb_ThemeableButton3
 {
    display: inline-block;
    width: 107px;
    height: 46px;
-   z-index: 15;
+   z-index: 17;
 }
 #wb_uid7
 {
@@ -3939,19 +4061,13 @@ input:focus, textarea:focus, select:focus
    font-size: 19px;
    line-height: 35px;
 }
-#wb_uid25
-{
-   color: #000000;
-   font-family: "Cairo";
-   font-size: 13px;
-}
 #wb_socialIcon4
 {
    display: inline-block;
    width: 40px;
    height: 40px;
    text-align: center;
-   z-index: 29;
+   z-index: 31;
 }
 #wb_socialIcon3
 {
@@ -3959,7 +4075,7 @@ input:focus, textarea:focus, select:focus
    width: 40px;
    height: 40px;
    text-align: center;
-   z-index: 28;
+   z-index: 30;
 }
 #wb_socialIcon2
 {
@@ -3967,7 +4083,7 @@ input:focus, textarea:focus, select:focus
    width: 40px;
    height: 40px;
    text-align: center;
-   z-index: 27;
+   z-index: 29;
 }
 #wb_socialIcon1
 {
@@ -3975,7 +4091,7 @@ input:focus, textarea:focus, select:focus
    width: 40px;
    height: 40px;
    text-align: center;
-   z-index: 26;
+   z-index: 28;
 }
 #wb_uid6
 {
@@ -3991,19 +4107,21 @@ body
    background-color: transparent;
    background-image: none;
 }
-#wb_Image1
+#wb_Image5
 {
-   width: 40px;
-   height: 40px;
+   width: 100%;
    visibility: visible;
-   display: inline-block;
+   display: block;
    margin: 0;
    padding: 0;
 }
-#Image1
+#wb_Image1
 {
-   width: 40px;
-   height: 40px;
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
 }
 #wb_LayoutGrid1
 {
@@ -4037,7 +4155,7 @@ body
    width: 66.66666667%;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   text-align: left;
+   text-align: center;
 }
 #LayoutGrid1 > .row > .col-2
 {
@@ -4049,24 +4167,58 @@ body
 }
 #LayoutGrid1-divider-bottom
 {
-   width: 150px;
+   width: 100px;
 }
 #LayoutGrid1-divider-bottom
 {
    right: 0%;
 }
+#wb_LayoutGrid4
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutGrid4
+{
+   height: auto;
+   margin-top: 10px;
+   margin-bottom: 0px;
+}
+#LayoutGrid4
+{
+   height: auto;
+   padding: 0 15px 0 15px;
+}
+#LayoutGrid4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
 #wb_PanelMenu2
 {
-   width: 47px;
+   width: 55px;
    height: 47px;
    visibility: visible;
    display: inline-block;
-   margin: 0;
+   margin: 10px 0 0 0 ;
 }
 #PanelMenu2
 {
    line-height: 47px;
-   width: 1px;
+   width: 9px;
    height: 47px;
 }
 #PanelMenu2 .line:first-child
@@ -4075,11 +4227,11 @@ body
 }
 #PanelMenu2_markup li a
 {
-   color: #F7F7F7;
+   color: #FFA500;
    border: 0px solid #0A0057;
    background-color: #0A0057;
    font-family: Cairo;
-   font-weight: normal;
+   font-weight: bold;
    font-size: 13px;
    font-style: normal;
    text-decoration: none;
@@ -4091,7 +4243,7 @@ body
    border-radius: 0px;
    background-color: #0A0057;
    font-family: Cairo;
-   font-weight: normal;
+   font-weight: bold;
    font-size: 13px;
    font-style: normal;
    text-decoration: none;
@@ -4099,7 +4251,7 @@ body
 }
 #PanelMenu2_markup li a:hover
 {
-   color: #454744;
+   color: #FF8C00;
    background-color: #0A0057;
    border: 0px solid #0A0057;
 }
@@ -4116,10 +4268,8 @@ body
 }
 #wb_Text1
 {
-   width: 183px;
-   height: 37px;
    visibility: visible;
-   display: inline-block;
+   display: block;
 }
 #wb_Text1
 {
@@ -4401,6 +4551,13 @@ body
 {
    visibility: visible;
    display: table;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('../images/banner.jpg');
+   background-repeat: no-repeat;
+   background-position: center center !important;
+   background-attachment: scroll;
+   background-size: cover;
 }
 #wb_LayoutGrid6
 {
@@ -4411,7 +4568,7 @@ body
 #LayoutGrid6
 {
    height: auto;
-   padding: 50px 15px 50px 15px;
+   padding: 25px 15px 25px 15px;
 }
 #LayoutGrid6 .row
 {
@@ -4447,7 +4604,7 @@ body
    height: 46px;
    visibility: visible;
    display: inline-block;
-   margin: 0 0 30px 0 ;
+   margin: 10px 0 65px 0 ;
 }
 #ThemeableButton3
 {
@@ -4490,7 +4647,7 @@ body
    width: 100%;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   text-align: left;
+   text-align: center;
 }
 #LayoutGrid5 > .row > .col-1 > .col-1-padding
 {
@@ -4503,7 +4660,7 @@ body
    width: 100%;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   text-align: left;
+   text-align: center;
 }
 #LayoutGrid5-divider-top
 {
@@ -4628,16 +4785,6 @@ body
 #Card2-divider-bottom
 {
    bottom: 0%;
-}
-#wb_Text5
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text5
-{
-   margin: 50px 0 50px 0 ;
-   padding: 0;
 }
 #wb_Text4
 {
@@ -5052,8 +5199,8 @@ body
 }
 #wb_socialIcon1
 {
-   width: 40px;
-   height: 40px;
+   width: 30px;
+   height: 28px;
    visibility: visible;
    display: inline-block;
    margin: 0;
@@ -5061,19 +5208,19 @@ body
 }
 #socialIcon1
 {
-   width: 40px;
-   height: 40px;
+   width: 30px;
+   height: 28px;
 }
 #socialIcon1 i
 {
-   line-height: 40px;
-   font-size: 40px;
-   width: 39px;
+   line-height: 28px;
+   font-size: 28px;
+   width: 27px;
 }
 #wb_socialIcon2
 {
-   width: 40px;
-   height: 40px;
+   width: 28px;
+   height: 28px;
    visibility: visible;
    display: inline-block;
    margin: 0;
@@ -5081,19 +5228,19 @@ body
 }
 #socialIcon2
 {
-   width: 40px;
-   height: 40px;
+   width: 28px;
+   height: 28px;
 }
 #socialIcon2 i
 {
-   line-height: 40px;
-   font-size: 40px;
-   width: 39px;
+   line-height: 28px;
+   font-size: 28px;
+   width: 27px;
 }
 #wb_socialIcon3
 {
-   width: 40px;
-   height: 40px;
+   width: 32px;
+   height: 31px;
    visibility: visible;
    display: inline-block;
    margin: 0;
@@ -5101,14 +5248,14 @@ body
 }
 #socialIcon3
 {
-   width: 40px;
-   height: 40px;
+   width: 32px;
+   height: 31px;
 }
 #socialIcon3 i
 {
-   line-height: 40px;
-   font-size: 40px;
-   width: 39px;
+   line-height: 31px;
+   font-size: 31px;
+   width: 30px;
 }
 #wb_socialIcon4
 {
@@ -5196,7 +5343,7 @@ body
 }
 #wb_linksText1
 {
-   font-family: Arial;
+   font-family: Cairo;
    font-weight: normal;
    font-size: 15px;
    margin: 0;
@@ -5221,7 +5368,7 @@ body
    border: 0px solid #CCCCCC;
    background-color: transparent;
    background-image: none;
-   font-family: Arial;
+   font-family: Cairo;
    font-weight: normal;
    font-size: 13px;
    font-style: normal;
@@ -5251,7 +5398,7 @@ body
 }
 #wb_linksText2
 {
-   font-family: Arial;
+   font-family: Cairo;
    font-weight: normal;
    font-size: 15px;
    margin: 0;
@@ -5306,7 +5453,7 @@ body
 }
 #wb_linksText3
 {
-   font-family: Arial;
+   font-family: Cairo;
    font-weight: normal;
    font-size: 15px;
    margin: 0;
@@ -5331,7 +5478,7 @@ body
    border: 0px solid #CCCCCC;
    background-color: transparent;
    background-image: none;
-   font-family: Arial;
+   font-family: Cairo;
    font-weight: normal;
    font-size: 13px;
    font-style: normal;
@@ -5395,7 +5542,7 @@ body
 }
 #wb_footerText
 {
-   font-family: Arial;
+   font-family: Cairo;
    font-weight: normal;
    font-size: 15px;
    margin: 0;
@@ -5575,6 +5722,28 @@ body
    height: 239px;
    visibility: visible;
    display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text6
+{
+   width: 317px;
+   height: 37px;
+   visibility: visible;
+   display: inline-block;
+}
+#wb_Text6
+{
+   margin: 5px 0 0 3px;
+   padding: 0;
+}
+#wb_Text5
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text5
+{
    margin: 0;
    padding: 0;
 }
