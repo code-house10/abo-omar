@@ -690,7 +690,7 @@ input:focus, textarea:focus, select:focus
 }
 #ThemeableButton1
 {
-   font-family: Changa;
+   font-family: Cairo;
    font-weight: normal;
    font-size: 13px;
    font-style: normal;
@@ -795,7 +795,7 @@ input:focus, textarea:focus, select:focus
 }
 #ThemeableButton2
 {
-   font-family: Changa;
+   font-family: Cairo;
    font-weight: normal;
    font-size: 13px;
    font-style: normal;
@@ -3134,7 +3134,7 @@ input:focus, textarea:focus, select:focus
 }
 #ThemeableButton6
 {
-   font-family: Changa;
+   font-family: Cairo;
    font-weight: normal;
    font-size: 13px;
    font-style: normal;
@@ -3239,7 +3239,7 @@ input:focus, textarea:focus, select:focus
 }
 #ThemeableButton7
 {
-   font-family: Changa;
+   font-family: Cairo;
    font-weight: normal;
    font-size: 13px;
    font-style: normal;
@@ -3360,7 +3360,7 @@ input:focus, textarea:focus, select:focus
 }
 #ThemeableButton4
 {
-   font-family: Changa;
+   font-family: Cairo;
    font-weight: normal;
    font-size: 13px;
    font-style: normal;
@@ -3465,7 +3465,7 @@ input:focus, textarea:focus, select:focus
 }
 #ThemeableButton5
 {
-   font-family: Changa;
+   font-family: Cairo;
    font-weight: normal;
    font-size: 13px;
    font-style: normal;
@@ -5153,7 +5153,7 @@ body
 #social
 {
    height: auto;
-   padding: 10px 0 10px 0;
+   padding: 10px 0 15px 0;
 }
 #social .row
 {
@@ -5199,8 +5199,8 @@ body
 }
 #wb_socialIcon1
 {
-   width: 30px;
-   height: 28px;
+   width: 35px;
+   height: 24px;
    visibility: visible;
    display: inline-block;
    margin: 0;
@@ -5208,19 +5208,19 @@ body
 }
 #socialIcon1
 {
-   width: 30px;
-   height: 28px;
+   width: 35px;
+   height: 24px;
 }
 #socialIcon1 i
 {
-   line-height: 28px;
-   font-size: 28px;
-   width: 27px;
+   line-height: 24px;
+   font-size: 24px;
+   width: 23px;
 }
 #wb_socialIcon2
 {
-   width: 28px;
-   height: 28px;
+   width: 35px;
+   height: 24px;
    visibility: visible;
    display: inline-block;
    margin: 0;
@@ -5228,19 +5228,19 @@ body
 }
 #socialIcon2
 {
-   width: 28px;
-   height: 28px;
+   width: 35px;
+   height: 24px;
 }
 #socialIcon2 i
 {
-   line-height: 28px;
-   font-size: 28px;
-   width: 27px;
+   line-height: 24px;
+   font-size: 24px;
+   width: 23px;
 }
 #wb_socialIcon3
 {
-   width: 32px;
-   height: 31px;
+   width: 35px;
+   height: 24px;
    visibility: visible;
    display: inline-block;
    margin: 0;
@@ -5248,19 +5248,19 @@ body
 }
 #socialIcon3
 {
-   width: 32px;
-   height: 31px;
+   width: 35px;
+   height: 24px;
 }
 #socialIcon3 i
 {
-   line-height: 31px;
-   font-size: 31px;
-   width: 30px;
+   line-height: 24px;
+   font-size: 24px;
+   width: 23px;
 }
 #wb_socialIcon4
 {
-   width: 46px;
-   height: 37px;
+   width: 35px;
+   height: 24px;
    visibility: visible;
    display: inline-block;
    margin: 0;
@@ -5268,14 +5268,14 @@ body
 }
 #socialIcon4
 {
-   width: 46px;
-   height: 37px;
+   width: 35px;
+   height: 24px;
 }
 #socialIcon4 i
 {
-   line-height: 37px;
-   font-size: 37px;
-   width: 36px;
+   line-height: 24px;
+   font-size: 24px;
+   width: 23px;
 }
 #wb_links
 {
