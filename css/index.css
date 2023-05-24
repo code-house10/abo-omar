@@ -176,7 +176,7 @@ input:focus, textarea:focus, select:focus
 }
 #LayoutGrid1-divider-bottom .divider-fill
 {
-   fill: #0A0057;
+   fill: #9f0404;
    transform-origin: 50% 50%;
    transform: rotate(-90deg) scale(1, 1);
 }
@@ -307,7 +307,7 @@ input:focus, textarea:focus, select:focus
 {
    color: #FFA500;
    border: 0px solid #2E2E2E;
-   background-color: #0A0057;
+   background-color: #9f0404;
    font-family: Cairo;
    font-weight: bold;
    font-size: 13px;
@@ -317,9 +317,9 @@ input:focus, textarea:focus, select:focus
 #wb_PanelMenu2 a
 {
    color: #FFFFFF;
-   border: 0px solid #0A0057;
+   border: 0px solid #9f0404;
    border-radius: 0px;
-   background-color: #0A0057;
+   background-color: #9f0404;
    font-family: Cairo;
    font-weight: bold;
    font-size: 13px;
@@ -329,19 +329,19 @@ input:focus, textarea:focus, select:focus
 }
 #PanelMenu2_markup li a:hover
 {
-   color: #FF8C00;
-   background-color: #0A0057;
+   color: #0f6004;
+   background-color: #9f0404;
    border: 0px solid #2E2E2E;
 }
 #wb_PanelMenu2 a:hover
 {
    color: #FFD700;
-   background-color: #0A0057;
+   background-color: #9f0404;
    border: 0px solid #2E2E2E;
 }
 #PanelMenu2_panel
 {
-   background-color: #0A0057;
+   background-color: #9f0404;
    overflow-y: auto;
 }
 #PanelMenu2
@@ -445,15 +445,15 @@ input:focus, textarea:focus, select:focus
    cursor: pointer;
    text-indent: -999px;
    border-radius: 50%;
-   background-color: #78CFFD;
-   box-shadow: 0 0 0 #0A0057;
+   background-color: #16191a;
+   box-shadow: 0 0 0 #9f0404;
    -webkit-transition: box-shadow 0.3s ease;
    transition: box-shadow 0.3s ease;
 }
 #wb_Carousel1 .pagination a.active
 {
-   background-color: #0A0057;
-   box-shadow: 0 0 6px #0A0057;
+   background-color: #9f0404;
+   box-shadow: 0 0 6px #9f0404;
 }
 #wb_LayoutGrid2
 {
@@ -547,7 +547,7 @@ input:focus, textarea:focus, select:focus
 }
 #LayoutGrid2-divider-bottom .divider-fill
 {
-   fill: #78CFFD;
+   fill: #16191a;
    transform-origin: 50% 50%;
    transform: rotate(-90deg) scale(1, 1);
 }
@@ -774,9 +774,9 @@ input:focus, textarea:focus, select:focus
 }
 #wb_ThemeableButton1 .ui-button
 {
-   background-color: #78CFFD;
+   background-color: #16191a;
    background-image: none;
-   border: 0px solid #78CFFD;
+   border: 0px solid #16191a;
    color: #FFFFFF;
 }
 #wb_ThemeableButton1 .ui-state-hover, #wb_ThemeableButton1 .ui-button:hover
@@ -879,9 +879,9 @@ input:focus, textarea:focus, select:focus
 }
 #wb_ThemeableButton2 .ui-button
 {
-   background-color: #0A0057;
+   background-color: #9f0404;
    background-image: none;
-   border: 0px solid #0A0057;
+   border: 0px solid #9f0404;
    color: #FFFFFF;
 }
 #wb_ThemeableButton2 .ui-state-hover, #wb_ThemeableButton2 .ui-button:hover
@@ -1322,9 +1322,9 @@ input:focus, textarea:focus, select:focus
 }
 #wb_ThemeableButton3 .ui-button
 {
-   background-color: #0A0057;
+   background-color: #9f0404;
    background-image: none;
-   border: 0px solid #0A0057;
+   border: 0px solid #9f0404;
    color: #FFFFFF;
 }
 #wb_ThemeableButton3 .ui-state-hover, #wb_ThemeableButton3 .ui-button:hover
@@ -1407,7 +1407,7 @@ input:focus, textarea:focus, select:focus
    bottom: 0;
    left: 0;
    pointer-events: none;   z-index: 0;
-   background-color: #0A0057;
+   background-color: #9f0404;
    opacity: 0.6;
 }
 #LayoutGrid5 > .row > .col-2
@@ -1431,7 +1431,7 @@ input:focus, textarea:focus, select:focus
    bottom: 0;
    left: 0;
    pointer-events: none;   z-index: 0;
-   background-color: #0A0057;
+   background-color: #9f0404;
    opacity: 0.6;
 }
 #LayoutGrid5:before,
@@ -1728,7 +1728,7 @@ input:focus, textarea:focus, select:focus
 }
 #Card2-divider-bottom .divider-fill
 {
-   fill: #0A0057;
+   fill: #9f0404;
    transform-origin: bottom;
    transform: rotateY(0deg);
 }
@@ -1828,7 +1828,7 @@ input:focus, textarea:focus, select:focus
 }
 #Card1-divider-bottom .divider-fill
 {
-   fill: #0A0057;
+   fill: #9f0404;
    transform-origin: bottom;
    transform: rotateY(0deg);
 }
@@ -1911,7 +1911,7 @@ input:focus, textarea:focus, select:focus
 }
 #Card3-divider-bottom .divider-fill
 {
-   fill: #0A0057;
+   fill: #9f0404;
    transform-origin: bottom;
    transform: rotateY(0deg);
 }
@@ -2049,7 +2049,7 @@ input:focus, textarea:focus, select:focus
 }
 #Card4-divider-bottom .divider-fill
 {
-   fill: #0A0057;
+   fill: #9f0404;
    transform-origin: bottom;
    transform: rotateY(0deg);
 }
@@ -2132,7 +2132,7 @@ input:focus, textarea:focus, select:focus
 }
 #Card5-divider-bottom .divider-fill
 {
-   fill: #0A0057;
+   fill: #9f0404;
    transform-origin: bottom;
    transform: rotateY(0deg);
 }
@@ -2215,7 +2215,7 @@ input:focus, textarea:focus, select:focus
 }
 #Card6-divider-bottom .divider-fill
 {
-   fill: #0A0057;
+   fill: #9f0404;
    transform-origin: bottom;
    transform: rotateY(0deg);
 }
@@ -2282,7 +2282,7 @@ input:focus, textarea:focus, select:focus
    display: table;
    text-align: center;
    width: 100%;
-   background-color: #4F4F4F;
+   background-color: #2e6da4;
    background-image: none;
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
@@ -2372,7 +2372,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_socialIcon1
 {
-   background-color: #4F4F4F;
+   background-color: #2e6da4;
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 50%;
@@ -2405,7 +2405,7 @@ input:focus, textarea:focus, select:focus
 }
 #socialIcon1:hover i
 {
-   color: #4F4F4F;
+   color: #2e6da4;
 }
 #wb_socialIcon1
 {
@@ -2414,7 +2414,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_socialIcon2
 {
-   background-color: #4F4F4F;
+   background-color: #2e6da4;
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 50%;
@@ -2447,7 +2447,7 @@ input:focus, textarea:focus, select:focus
 }
 #socialIcon2:hover i
 {
-   color: #4F4F4F;
+   color: #2e6da4;
 }
 #wb_socialIcon2
 {
@@ -2456,7 +2456,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_socialIcon3
 {
-   background-color: #4F4F4F;
+   background-color: #2e6da4;
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 50%;
@@ -2489,11 +2489,11 @@ input:focus, textarea:focus, select:focus
 }
 #socialIcon3:hover i
 {
-   color: #4F4F4F;
+   color: #2e6da4;
 }
 #wb_socialIcon4
 {
-   background-color: #4F4F4F;
+   background-color: #2e6da4;
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 50%;
@@ -2526,7 +2526,7 @@ input:focus, textarea:focus, select:focus
 }
 #socialIcon4:hover i
 {
-   color: #4F4F4F;
+   color: #2e6da4;
 }
 #wb_socialIcon4
 {
@@ -2643,7 +2643,7 @@ input:focus, textarea:focus, select:focus
 }
 #links-divider-top .divider-fill
 {
-   fill: #4F4F4F;
+   fill: #2e6da4;
    transform-origin: bottom;
    transform: rotateY(0deg);
 }
@@ -2659,7 +2659,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_linksText1
 {
-   color: #FF8C00;
+   color: #0f6004;
    font-family: Cairo;
    font-weight: normal;
    font-size: 15px;
@@ -2719,7 +2719,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_linksMenu1 li:hover a, #wb_linksMenu1 a:hover
 {
-   color: #4F4F4F;
+   color: #2e6da4;
    border: 0px solid #2E6DA4;
    background-color: transparent;
    background-image: none;
@@ -2751,7 +2751,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_linksText2
 {
-   color: #FF8C00;
+   color: #0f6004;
    font-family: Cairo;
    font-weight: normal;
    font-size: 15px;
@@ -2811,7 +2811,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_linksMenu2 li:hover a, #wb_linksMenu2 a:hover
 {
-   color: #4F4F4F;
+   color: #2e6da4;
    border: 0px solid #2E6DA4;
    background-color: transparent;
    background-image: none;
@@ -2843,7 +2843,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_linksText3
 {
-   color: #FF8C00;
+   color: #0f6004;
    font-family: Cairo;
    font-weight: normal;
    font-size: 15px;
@@ -2903,7 +2903,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_linksMenu3 li:hover a, #wb_linksMenu3 a:hover
 {
-   color: #4F4F4F;
+   color: #2e6da4;
    border: 0px solid #2E6DA4;
    background-color: transparent;
    background-image: none;
@@ -3074,7 +3074,7 @@ input:focus, textarea:focus, select:focus
 {
    width: 82px;
    height: 43px;
-   background-color: #FF8C00;
+   background-color: #0f6004;
    background-image: none;
    border: 0px #0963AD solid;
 }
@@ -3121,7 +3121,7 @@ input:focus, textarea:focus, select:focus
 }
 #IconFont1 i
 {
-   color: #FF8C00;
+   color: #0f6004;
    display: inline-block;
    font-size: 49px;
    line-height: 49px;
@@ -3130,7 +3130,7 @@ input:focus, textarea:focus, select:focus
 }
 #IconFont1:hover i
 {
-   color: #FF8C00;
+   color: #0f6004;
 }
 #ThemeableButton6
 {
@@ -3218,9 +3218,9 @@ input:focus, textarea:focus, select:focus
 }
 #wb_ThemeableButton6 .ui-button
 {
-   background-color: #0A0057;
+   background-color: #9f0404;
    background-image: none;
-   border: 0px solid #0A0057;
+   border: 0px solid #9f0404;
    color: #FFFFFF;
 }
 #wb_ThemeableButton6 .ui-state-hover, #wb_ThemeableButton6 .ui-button:hover
@@ -3323,9 +3323,9 @@ input:focus, textarea:focus, select:focus
 }
 #wb_ThemeableButton7 .ui-button
 {
-   background-color: #78CFFD;
+   background-color: #16191a;
    background-image: none;
-   border: 0px solid #78CFFD;
+   border: 0px solid #16191a;
    color: #FFFFFF;
 }
 #wb_ThemeableButton7 .ui-state-hover, #wb_ThemeableButton7 .ui-button:hover
@@ -3444,9 +3444,9 @@ input:focus, textarea:focus, select:focus
 }
 #wb_ThemeableButton4 .ui-button
 {
-   background-color: #0A0057;
+   background-color: #9f0404;
    background-image: none;
-   border: 0px solid #0A0057;
+   border: 0px solid #9f0404;
    color: #FFFFFF;
 }
 #wb_ThemeableButton4 .ui-state-hover, #wb_ThemeableButton4 .ui-button:hover
@@ -3549,9 +3549,9 @@ input:focus, textarea:focus, select:focus
 }
 #wb_ThemeableButton5 .ui-button
 {
-   background-color: #78CFFD;
+   background-color: #16191a;
    background-image: none;
-   border: 0px solid #78CFFD;
+   border: 0px solid #16191a;
    color: #FFFFFF;
 }
 #wb_ThemeableButton5 .ui-state-hover, #wb_ThemeableButton5 .ui-button:hover
@@ -3714,7 +3714,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_uid22
 {
-   color: #FF8C00;
+   color: #0f6004;
 }
 #wb_linksMenu2
 {
@@ -3751,7 +3751,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_uid21
 {
-   color: #FF8C00;
+   color: #0f6004;
 }
 #wb_Card3
 {
@@ -3784,7 +3784,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_uid20
 {
-   color: #FF8C00;
+   color: #0f6004;
 }
 #wb_uid16
 {
@@ -4027,7 +4027,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_uid8
 {
-   color: #FF8C00;
+   color: #0f6004;
    font-family: "Cairo";
    font-size: 19px;
    line-height: 35px;
@@ -4228,8 +4228,8 @@ body
 #PanelMenu2_markup li a
 {
    color: #FFA500;
-   border: 0px solid #0A0057;
-   background-color: #0A0057;
+   border: 0px solid #9f0404;
+   background-color: #9f0404;
    font-family: Cairo;
    font-weight: bold;
    font-size: 13px;
@@ -4239,9 +4239,9 @@ body
 #wb_PanelMenu2 a
 {
    color: #FFFFFF;
-   border: 0px solid #0A0057;
+   border: 0px solid #9f0404;
    border-radius: 0px;
-   background-color: #0A0057;
+   background-color: #9f0404;
    font-family: Cairo;
    font-weight: bold;
    font-size: 13px;
@@ -4251,19 +4251,19 @@ body
 }
 #PanelMenu2_markup li a:hover
 {
-   color: #FF8C00;
-   background-color: #0A0057;
-   border: 0px solid #0A0057;
+   color: #0f6004;
+   background-color: #9f0404;
+   border: 0px solid #9f0404;
 }
 #wb_PanelMenu2 a:hover
 {
    color: #FFFFFF;
-   background-color: #0A0057;
-   border: 0px solid #0A0057;
+   background-color: #9f0404;
+   border: 0px solid #9f0404;
 }
 #PanelMenu2_panel
 {
-   background-color: #0A0057;
+   background-color: #9f0404;
    overflow-y: auto;
 }
 #wb_Text1
@@ -5382,7 +5382,7 @@ body
 }
 #wb_linksMenu1 li:hover a, #wb_linksMenu1 a:hover
 {
-   color: #4F4F4F;
+   color: #2e6da4;
    border: 0px solid #2E6DA4;
    background-color: transparent;
    background-image: none;
@@ -5437,7 +5437,7 @@ body
 }
 #wb_linksMenu2 li:hover a, #wb_linksMenu2 a:hover
 {
-   color: #4F4F4F;
+   color: #2e6da4;
    border: 0px solid #2E6DA4;
    background-color: transparent;
    background-image: none;
@@ -5492,7 +5492,7 @@ body
 }
 #wb_linksMenu3 li:hover a, #wb_linksMenu3 a:hover
 {
-   color: #4F4F4F;
+   color: #2e6da4;
    border: 0px solid #2E6DA4;
    background-color: transparent;
    background-image: none;
